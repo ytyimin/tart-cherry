@@ -7,6 +7,7 @@ Repeating the instructions here for easier reference.
 The following assumes that Ruby is already installed.
 
 #install bundler
+
 $ gem install bundler
 
 #install jekyll 
