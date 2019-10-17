@@ -11,10 +11,10 @@ The following assumes that Ruby is already installed.
 >$ gem install bundler
 
 #install jekyll 
-$ gem install jekyll
+>$ gem install jekyll
 
 #create new repository locally
-$ jekyll new myrepo
+>$ jekyll new myrepo
 
 #change directory to the new repository
 $ cd myrepo
