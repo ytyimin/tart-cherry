@@ -1,10 +1,10 @@
 sweet-pumpkin
 
-#Site created base on Stephanie Hicks instruction at http://www.stephaniehicks.com/githubPages_tutorial/pages/githubpages-jekyll.html 
+Site created base on Stephanie Hicks instruction at http://www.stephaniehicks.com/githubPages_tutorial/pages/githubpages-jekyll.html 
 
-#Repeating the instructions here for easier reference.
+Repeating the instructions here for easier reference.
 
-#The following assumes that Ruby is already installed.
+The following assumes that Ruby is already installed.
 
 #install bundler
 $ gem install bundler
