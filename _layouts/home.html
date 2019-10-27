@@ -8,6 +8,16 @@ layout: default
   {%- endif -%}
 
   {{ content }}
+  
+  <ul>
+  {% for member in site.data.members %}
+  <li>
+    <a href="https://github.com/{{ member.github }}">
+      {{ member.name }}
+    </a>
+  </li>
+  {% endfor %}
+  </ul>
 
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
