@@ -7,6 +7,7 @@ layout: home
 
 add some random stuff here to see how it happens
 
+so any content here can be ok but why the for loop does not work
 
 {% for member in site.data.members %}
   <li>
