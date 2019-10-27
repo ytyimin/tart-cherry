@@ -10,10 +10,10 @@ layout: default
   {{ content }}
   
   <ul>
-  {% for member in site.data.members %}
+  {% for paper in site.data.papers %}
   <li>
-    <a href="https://github.com/{{ member.github }}">
-      {{ member.name }}
+    <a href="https://github.com/{{ paper.github }}">
+      {{ paper.name }}
     </a>
   </li>
   {% endfor %}
