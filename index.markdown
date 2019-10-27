@@ -7,7 +7,7 @@ layout: home
 
 add some random stuff here to see how it happens
 
-<ul>
+
 {% for member in site.data.members %}
   <li>
     <a href="https://github.com/{{ member.github }}">
@@ -15,4 +15,4 @@ add some random stuff here to see how it happens
     </a>
   </li>
 {% endfor %}
-</ul>
+
