@@ -5,6 +5,8 @@
 layout: home
 ---
 
+add some random stuff here to see how it happens
+
 <ul>
 {% for member in site.data.members %}
   <li>
