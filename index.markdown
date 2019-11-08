@@ -5,10 +5,6 @@
 layout: home
 ---
 
-add some random stuff here to see how it happens
-
-so any content here can be ok but why the for loop does not work
-
     <!-- An article citation in MLA format, using a 'flat' approach that simplifies
       markup by not specifying an explicit relationship between the periodical,
       volume, and issue -->
