@@ -12,29 +12,28 @@ layout: default
   <!-- An article citation in MLA format, using a 'flat' approach that simplifies
   markup by not specifying an explicit relationship between the periodical,
   volume, and issue -->
-<div>
-  Carlyle, Allyson. "Understanding FRBR as a Conceptual Model: FRBR
+  <div>
+    Carlyle, Allyson. "Understanding FRBR as a Conceptual Model: FRBR
     and the Bibliographic Universe."
-  <em>Library Resources and Technical Services</em>,
-  v. 50, no. 4 (October 2006): 264-273. Print.
-</div>
+    <em>Library Resources and Technical Services</em>,
+    v. 50, no. 4 (October 2006): 264-273. Print.
+  </div>
   
   {%- if site.data.papers.size > 0 -%}
-    <ul class="paper-list">
       {%- for paper in site.data.papers -%}
-      <li>
-        <span class="paper-meta">{{ paper.name }}</span>
-        <h3>
-          <a class="paper-link" href="https://github.com/{{ paper.github }}">
-            {{ paper.name | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ paper.excerpt }}
-        {%- endif -%}
-      </li>
+          <div>
+              {{ paper.name }} Carlyle, Allyson. "Understanding FRBR as a Conceptual Model: FRBR
+              and the Bibliographic Universe."
+              <em>Library Resources and Technical Services</em>,
+              v. 50, no. 4 (October 2006): 264-273. Print.
+              <a class="paper-link" href="https://github.com/{{ paper.github }}">
+              {{ paper.name | escape }}
+              </a>
+              {%- if site.show_excerpts -%}
+                  {{ paper.excerpt }}
+              {%- endif -%}
+          </div>
       {%- endfor -%}
-    </ul>
   {%- endif -%}
 
 
