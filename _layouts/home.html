@@ -20,14 +20,13 @@ layout: default
 </div>
   
   {%- if site.data.papers.size > 0 -%}
-    <h3 class="post-list-heading">{{ page.list_title | default: "Research Papers" }}</h3>
-    <ul class="post-list">
+    <h3 class="paper-list-heading">{{ page.list_title | default: "Research Papers" }}</h3>
+    <ul class="paper-list">
       {%- for paper in site.data.papers -%}
       <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ paper.name }}</span>
+        <span class="paper-meta">{{ paper.name }}</span>
         <h3>
-          <a class="post-link" href="https://github.com/{{ paper.github }}">
+          <a class="paper-link" href="https://github.com/{{ paper.github }}">
             {{ paper.name | escape }}
           </a>
         </h3>
