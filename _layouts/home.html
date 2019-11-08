@@ -10,6 +10,7 @@ layout: default
   {{ content }}
      
   {%- if site.data.papers.size > 0 -%}
+  <div>Published Papers</div>
       {%- for paper in site.data.papers -%}
           <div>
               {{ paper.name }}. "Understanding FRBR as a Conceptual Model: FRBR
