@@ -5,6 +5,6 @@
 layout: home
 ---
 
-<!---Published Papers--->
+<div>Published Papers</div>
 
 
