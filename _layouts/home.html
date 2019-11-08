@@ -20,7 +20,6 @@ layout: default
 </div>
   
   {%- if site.data.papers.size > 0 -%}
-    <h3 class="paper-list-heading">{{ page.list_title | default: "Research Papers" }}</h3>
     <ul class="paper-list">
       {%- for paper in site.data.papers -%}
       <li>
