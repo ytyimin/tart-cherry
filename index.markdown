@@ -5,15 +5,6 @@
 layout: home
 ---
 
-    <!-- An article citation in MLA format, using a 'flat' approach that simplifies
-      markup by not specifying an explicit relationship between the periodical,
-      volume, and issue -->
-    <div>
-      Carlyle, Allyson. "Understanding FRBR as a Conceptual Model: FRBR
-        and the Bibliographic Universe."
-      <em>Library Resources and Technical Services</em>,
-      v. 50, no. 4 (October 2006): 264-273. Print.
-    </div>
-
+Published Papers
 
 
