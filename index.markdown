@@ -9,5 +9,9 @@ layout: home
 fun test_me():
     print('yes, backticks work!')
 ```
-
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
 
