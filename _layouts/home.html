@@ -9,13 +9,10 @@ layout: default
 
   {{ content }}
      
-  some code example here
-  
-  
   {%- if site.data.papers.size > 0 -%}
       <h3 class="post-content">Published Papers</h3>
       {%- for paper in site.data.papers -%}
-          <div>
+          <p>
               {{ paper.name }}. "Understanding FRBR as a Conceptual Model: FRBR
               and the Bibliographic Universe."
               <em>Library Resources and Technical Services</em>,
@@ -26,7 +23,7 @@ layout: default
               {%- if site.show_excerpts -%}
                   {{ paper.excerpt }}
               {%- endif -%}
-          </div>
+          </p>
       {%- endfor -%}
   {%- endif -%}
 
