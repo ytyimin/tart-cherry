@@ -9,6 +9,11 @@ layout: default
 
   {{ content }}
      
+  ```python
+fun test_me():
+    print('yes, backticks work!')
+```
+  
   {%- if site.data.papers.size > 0 -%}
       <h3 class="post-content">Published Papers</h3>
       {%- for paper in site.data.papers -%}
