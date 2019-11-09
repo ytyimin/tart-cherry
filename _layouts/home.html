@@ -9,6 +9,12 @@ layout: default
 
   {{ content }}
   
+  {% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+  
   {%- if site.data.papers.size > 0 -%}
       <h3 class="post-content">Published Papers</h3>
       {%- for paper in site.data.papers -%}
