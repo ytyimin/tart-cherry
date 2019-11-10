@@ -365,7 +365,7 @@
  */
 
 .modal {
-    position: fixed;
+    position: relative;
     top: 0;
     right: 0;
     bottom: 0;
@@ -375,6 +375,11 @@
     overflow: hidden;
     -webkit-overflow-scrolling: touch;
     outline: 0
+}
+
+.modal-body {
+    position: relative;
+    padding: 6px
 }
 
 .modal-content {
