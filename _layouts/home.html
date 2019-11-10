@@ -9,11 +9,15 @@ layout: default
 
   {{ content }}
   
-  {% highlight ruby %}
-def foo
-  puts 'foo'
-end
+{% highlight ruby %}
+  def foo
+    puts 'foo'
+  end
 {% endhighlight %}
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/DataMonetization.pdf" target="_blank" rel="noopener">
+  PDF
+</a>  
   
   {%- if site.data.papers.size > 0 -%}
       <h3 class="post-content">Published Papers</h3>
