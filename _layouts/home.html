@@ -16,7 +16,13 @@ layout: default
 {% endhighlight %}
   
 <a class="button button1" href="/DataMonetization.pdf" target="_blank" rel="noopener">PDF</a>  
-<button class="button button1">Cite</button>
+<button class="button button1">
+  Bibtex
+</button>
+<button type="button" class="button button1 js-cite-modal"
+        data-filename="/publication/data-monetization/cite.bib">
+  Cite
+</button>
   
   {%- if site.data.papers.size > 0 -%}
       <h3 class="post-content">Published Papers</h3>
