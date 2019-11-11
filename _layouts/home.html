@@ -17,35 +17,54 @@ layout: default
               <em>{{ paper.journal }}</em>,
               v. {{ paper.vol }}, no. {{ paper.num }} ({{ paper.monthyear }}): {{ paper.page }}. 
               <a class="button button1" href="/DataMonetization.pdf" target="_blank" rel="noopener">PDF</a>  
-              <button class="button button1">
+              <button type="button" class="button button1" data-toggle="modal" data-target="#{{ paper.id }}-bib">
                 Bibtex
               </button>
-            <button type="button" class="button button1" data-toggle="modal" data-target="#{{ paper.id }}">Abstract</button>
-  <!-- Modal -->
-  <div class="modal fade" id="{{ paper.id }}" role="dialog">
-    <div class="modal-dialog">
+              <button type="button" class="button button1" data-toggle="modal" data-target="#{{ paper.id }}">
+                Abstract
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="{{ paper.id }}-bib" role="dialog">
+                <div class="modal-dialog">
     
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title">Abstract</h4>
-        </div>
-        <div class="modal-body">
-          <p> {{ paper.abstract }} </p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="button button1" data-dismiss="modal">Close</button>
-        </div>
-      </div>
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Bibtex</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p> {{ paper.bib }} </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="button button1" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
       
-    </div>
-  </div>
-              {%- if site.show_excerpts -%}
-                  {{ paper.excerpt }}
-              {%- endif -%}
+              </div>
+            </div>
+              <div class="modal fade" id="{{ paper.id }}" role="dialog">
+                <div class="modal-dialog">
+    
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">Abstract</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p> {{ paper.abstract }} </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="button button1" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+      
+              </div>
+            </div>
+            {%- if site.show_excerpts -%}
+              {{ paper.excerpt }}
+            {%- endif -%}
           </p>
       {%- endfor -%}
   {%- endif -%}
-
 
 </div>
