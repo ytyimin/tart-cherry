@@ -15,14 +15,14 @@ layout: default
           <p>
               {{ paper.title }}.
               <em>{{ paper.journal }}</em>,
-              v. {{ paper.vol }}, no. {{ paper.num }} ({{ paper.year }}): {{ paper.page }}. 
+              v. {{ paper.vol }}, no. {{ paper.num }} ({{ paper.monthyear }}): {{ paper.page }}. 
               <a class="button button1" href="/DataMonetization.pdf" target="_blank" rel="noopener">PDF</a>  
               <button class="button button1">
                 Bibtex
               </button>
-            <button type="button" class="button button1" data-toggle="modal" data-target="#{{ paper.vol }}">Abstract</button>
+            <button type="button" class="button button1" data-toggle="modal" data-target="#{{ paper.id }}">Abstract</button>
   <!-- Modal -->
-  <div class="modal fade" id="{{ paper.vol }}" role="dialog">
+  <div class="modal fade" id="{{ paper.id }}" role="dialog">
     <div class="modal-dialog">
     
       <!-- Modal content-->
