@@ -48,13 +48,37 @@ layout: default
       <h3 class="post-content">Published Papers</h3>
       {%- for paper in site.data.papers -%}
           <p>
-              {{ paper.name }}. "Understanding FRBR as a Conceptual Model: FRBR
-              and the Bibliographic Universe."
-              <em>Library Resources and Technical Services</em>,
-              v. 50, no. 4 (October 2006): 264-273. Print.
-              <a class="paper-link" href="https://github.com/{{ paper.github }}">
-              {{ paper.name | escape }}
-              </a>
+              "{{ paper.title }}."
+              <em>{{ paper.journal }}</em>,
+              v. {{ paper.vol }}, no. {{ paper.num }} ({{ paper.year }}): {{ paper.page }}. 
+              <a class="button button1" href="/DataMonetization.pdf" target="_blank" rel="noopener">PDF</a>  
+              <button class="button button1">
+                Bibtex
+              </button>
+              <button type="button" class="button button1 js-cite-modal"
+                data-filename="/publication/data-monetization/cite.bib">
+                Cite
+              </button>
+              <button type="button" class="button button1" data-toggle="modal" data-target="#myModal">Abstract</button>
+              <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+                  <div class="modal-dialog">
+    
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title">Abstract</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>Some text in the abstract.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="button button1" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+      
+                  </div>
+                </div>
               {%- if site.show_excerpts -%}
                   {{ paper.excerpt }}
               {%- endif -%}
