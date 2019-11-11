@@ -48,7 +48,7 @@ layout: default
       <h3 class="post-content">Published Papers</h3>
       {%- for paper in site.data.papers -%}
           <p>
-              "{{ paper.title }}."
+              {{ paper.title }}.
               <em>{{ paper.journal }}</em>,
               v. {{ paper.vol }}, no. {{ paper.num }} ({{ paper.year }}): {{ paper.page }}. 
               
