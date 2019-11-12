@@ -9,13 +9,10 @@
             {%- if site.email -%}
             <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {%- endif -%}
+            {%- if site.url -%}
+            <li><a class="social-media-list" href="{{ site.url }}">{{ site.url }}</a></li>
+            {%- endif -%}
             <li>Website built on <a class="u-email" href="https://github.com/jekyll/minima">jekyll minima</a>. </li>
-        </ul>
-      </div>
-      {%- assign social = site.minima.social_links -%}
-      <div class="social-links">
-          <ul class="social-media-list">
-           {%- if social.github -%}<li><a href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}"></a></li>{%- endif -%}        </ul>
         </ul>
       </div>
     </div>
