@@ -6,12 +6,14 @@
     <div class="footer-col-wrapper">
       <div class="footer-col one-half">
           <ul class="contact-list">
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-            {%- if site.url -%}
-            <li><a class="social-media-list" href="{{ site.url }}">{{ site.url }}</a></li>
-            {%- endif -%}
+            <li>
+              {%- if site.email -%}
+                <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+              {%- endif -%}
+              {%- if site.url -%}
+                <a class="social-media-list" href="{{ site.url }}">{{ site.url }}</a>
+              {%- endif -%}
+            </li>
             <li>Website built on <a class="u-email" href="https://github.com/jekyll/minima">jekyll minima</a>. </li>
         </ul>
       </div>
