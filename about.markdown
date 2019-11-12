@@ -3,6 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+title: About
 ---
 
-some test
+# About page
+
+This page tells you a little bit about me.
