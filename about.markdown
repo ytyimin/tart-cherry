@@ -15,7 +15,8 @@ You can find the source code for Jekyll at GitHub:
 [jekyll](https://github.com/jekyll/jekyll)
 
 Contact: [ytyimin@gmail.com](mailto:ytyimin@gmail.com)
-Github: [ytyimin](https://ytyimin.github.com/sweet-pumpkin)
+
+Github: [ytyimin](https://github.com/ytyimin)
 
 
 [jekyll-organization]: https://github.com/jekyll
