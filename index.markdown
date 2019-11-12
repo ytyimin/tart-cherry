@@ -4,7 +4,3 @@
 
 layout: home
 ---
-
-  ```python
-    print('yes, backticks work!')
-```
