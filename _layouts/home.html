@@ -13,7 +13,7 @@ layout: default
       <h3 class="post-content">Published Papers</h3>
       {%- for paper in site.data.papers -%}
           <p>
-              {{ paper.title }}.
+            <b>{{ paper.title }}</b>.
               <em>{{ paper.journal }}</em>,
               v. {{ paper.vol }}, no. {{ paper.num }} ({{ paper.monthyear }}): {{ paper.page }}. 
               <a class="button button1" href="{{ site.baseurl }}/assets/pdf/{{ paper.id }}.pdf" target="_blank" rel="noopener">PDF</a>  
