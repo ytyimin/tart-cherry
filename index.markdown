@@ -6,6 +6,5 @@ layout: home
 ---
 
   ```python
-fun test_me():
     print('yes, backticks work!')
 ```
