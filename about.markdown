@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-<img src="assets/image/sweet-pumpkin.jpg" alt="Sweet Pumpkin" width="220" height="124">
+<img src="assets/image/sweet-pumpkin.jpg" alt="Sweet Pumpkin" width="300" height="169">
 
 This site is based on the base Jekyll theme. 
 
