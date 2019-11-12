@@ -13,7 +13,9 @@
         </ul>
       </div>
       <div class="social-links">
-        {%- include social.html -%}
+          <ul class="social-media-list">
+           {%- if social.github -%}<li><a href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}"></a></li>{%- endif -%}        </ul>
+        </ul>
       </div>
     </div>
 
