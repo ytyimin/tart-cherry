@@ -8,4 +8,4 @@ title: About
 
 # About page
 
-This page tells you a little bit about this site.
+These example problem sets were originally developed by Athira Praveen and Ramesh Alla. The problem sets were based on Practical Mangement Science. The development is partially funded by the Department of Supply Chain Management, W. P. Carey School of Business at Arizona State University. 
