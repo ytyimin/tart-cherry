@@ -5,6 +5,6 @@
 layout: home
 ---
 
-  ```python
-    print('yes, backticks work!')
+```python
+   example problems for business analytics
 ```
