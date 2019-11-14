@@ -1,28 +1,28 @@
 content,topic,question,page,type,editor,filesequence
-Introduction to Optimization,Product mix [Chemical],25,125,LP,AP,1
-Introduction to Optimization,Product mix [Furniture],26,125,LP,RA,2
-Introduction to Optimization,Product mix [Farmer],27,125,LP,AP,3
-Introduction to Optimization,Multi-period Planning [Commodity],28,125,LP,RA,4
-Introduction to Optimization,Multi-period Planning [Inventory],29,126,LP,AP,5
-Introduction to Optimization,Multi-period Planning [Maggie Stewart],30,126,LP,RA,6
-Introduction to Optimization,Product mix [Trucks],35,127,LP,RA,7
-Introduction to Optimization,Product mix [Sailboats],37,127,LP,AP,8
-Introduction to Optimization,Product mix [Two Products],38,128,LP,RA,9
-Introduction to Optimization,Multi-period Planning [Textile],39,128,LP,AP,10
-Introduction to Optimization,Multi-period Planning [Shoe],40,128,LP,RA,11
-Introduction to Optimization,Multi-period Planning [Appliance],41,128,LP,AP,12
-Linear Programming Models,Aggregate Planning [Bus Drivers],45,200,LP,AP,13
-Linear Programming Models,Sceduling [Smalltown Police],46,200,LP,RA,14
-Linear Programming Models,Aggregate Planning [Shoemakers],47,200,LP,AP,15
-Linear Programming Models,Blending [NewAge Pharmaceutical],48,200,LP,RA,16
-Linear Programming Models,Blending [Candy],49,200,LP,AP,17
-Linear Programming Models,Blending[Sunblessed Juice],50,200,LP,RA,18
-Linear Programming Models,Aggregate Planning [Automobile],80,204,LP,RA,19
-Linear Programming Models,Finanical Planning [Mortgage Loan],81,204,LP,AP,20
-Linear Programming Models,Blending [Eli Lilly and Pfizer],84,205,LP,RA,21
-Linear Programming Models,Blending [Capsule Drugs],92,207,LP,AP,22
-Linear Programming Models,Blending [Baxter Labs],120,211,LP,RA,23
-Linear Programming Models,DEA [Salem Board of Education],42,198,LP,AP,24
+intro,Product mix [Chemical],25,125,LP,AP,1
+intro,Product mix [Furniture],26,125,LP,RA,2
+intro,Product mix [Farmer],27,125,LP,AP,3
+intro,Multi-period Planning [Commodity],28,125,LP,RA,4
+intro,Multi-period Planning [Inventory],29,126,LP,AP,5
+intro,Multi-period Planning [Maggie Stewart],30,126,LP,RA,6
+intro,Product mix [Trucks],35,127,LP,RA,7
+intro,Product mix [Sailboats],37,127,LP,AP,8
+intro,Product mix [Two Products],38,128,LP,RA,9
+intro,Multi-period Planning [Textile],39,128,LP,AP,10
+intro,Multi-period Planning [Shoe],40,128,LP,RA,11
+intro,Multi-period Planning [Appliance],41,128,LP,AP,12
+linear,Aggregate Planning [Bus Drivers],45,200,LP,AP,13
+linear,Sceduling [Smalltown Police],46,200,LP,RA,14
+linear,Aggregate Planning [Shoemakers],47,200,LP,AP,15
+linear,Blending [NewAge Pharmaceutical],48,200,LP,RA,16
+linear,Blending [Candy],49,200,LP,AP,17
+linear,Blending[Sunblessed Juice],50,200,LP,RA,18
+linear,Aggregate Planning [Automobile],80,204,LP,RA,19
+linear,Finanical Planning [Mortgage Loan],81,204,LP,AP,20
+linear,Blending [Eli Lilly and Pfizer],84,205,LP,RA,21
+linear,Blending [Capsule Drugs],92,207,LP,AP,22
+linear,Blending [Baxter Labs],120,211,LP,RA,23
+linear,DEA [Salem Board of Education],42,198,LP,AP,24
 Network Models,Transportation [Busville],42,268,NW,AP,25
 Network Models,Shortest Path [New York - Los Angeles],43,268,NW,RA,26
 Network Models,Assignment [National Bank],47,268,NW,AP,27
