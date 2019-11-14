@@ -9,60 +9,15 @@ layout: default
 
   {{ content }}
   
-  {%- if site.data.papers.size > 0 -%}
-      <h3 class="post-content">Published Papers</h3>
-      {%- for paper in site.data.papers -%}
+  {%- if site.data.examples.size > 0 -%}
+      <h3 class="post-content">Example Problem Sets</h3>
+      {%- for example in site.data.examples -%}
           <p>
-              <b>{{ paper.title }}</b>.
-              <em>{{ paper.journal }}</em>,
-              v. {{ paper.vol }}, no. {{ paper.num }} ({{ paper.monthyear }}): {{ paper.page }}. 
-              <a class="button button1" href="{{ site.baseurl }}/assets/pdf/{{ paper.id }}.pdf" target="_blank" rel="noopener">PDF</a>  
-              <button type="button" class="button button1" data-toggle="modal" data-target="#{{ paper.id }}-bib">
-                Bibtex
-              </button>
-              <button type="button" class="button button1" data-toggle="modal" data-target="#{{ paper.id }}">
-                Abstract
-              </button>
-              <!-- Modal -->
-              <div class="modal fade" id="{{ paper.id }}-bib" role="dialog">
-                <div class="modal-dialog">
-    
-                <!-- Modal content-->
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">Bibtex</h4>
-                  </div>
-                  <div class="modal-body">
-                    <p> {{ paper.bib }} </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="button button1" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-      
-              </div>
-            </div>
-              <div class="modal fade" id="{{ paper.id }}" role="dialog">
-                <div class="modal-dialog">
-    
-                <!-- Modal content-->
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">Abstract</h4>
-                  </div>
-                  <div class="modal-body">
-                    <p> {{ paper.abstract }} </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="button button1" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-      
-              </div>
-            </div>
-            {%- if site.show_excerpts -%}
-              {{ paper.excerpt }}
-            {%- endif -%}
+              <b>{{ example.content }}</b>.
+              <em>{{ example.topic }}</em>,
+              Q. {{ example.question }}, P. {{ example.page }}. 
+              <a class="button button1" href="{{ site.baseurl }}/assets/pdf/{{ example.filesequence }}[{{ example.editor }}].pdf" target="_blank" rel="noopener">Model Solution</a>  
+              <a class="button button1" href="{{ site.baseurl }}/assets/xlsx/{{ example.filesequence }}[{{ example.editor }}].xlsx" target="_blank" rel="noopener">Excel Solution</a>  
           </p>
       {%- endfor -%}
   {%- endif -%}
