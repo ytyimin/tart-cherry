@@ -1,0 +1,61 @@
+content,width,height,topic,question,page,type,editor,filesequence,w,h
+intro,52,31,Product mix [Chemical],25,125,LP,AP,1,260,154
+intro,52,31,Product mix [Furniture],26,125,LP,RA,2,260,154
+intro,52,31,Product mix [Farmer],27,125,LP,AP,3,260,154
+intro,52,31,Multi-period Planning [Commodity],28,125,LP,RA,4,260,154
+intro,52,31,Multi-period Planning [Inventory],29,126,LP,AP,5,260,154
+intro,52,31,Multi-period Planning [Maggie Stewart],30,126,LP,RA,6,260,154
+intro,52,31,Product mix [Trucks],35,127,LP,RA,7,260,154
+intro,52,31,Product mix [Sailboats],37,127,LP,AP,8,260,154
+intro,52,31,Product mix [Two Products],38,128,LP,RA,9,260,154
+intro,52,31,Multi-period Planning [Textile],39,128,LP,AP,10,260,154
+intro,52,31,Multi-period Planning [Shoe],40,128,LP,RA,11,260,154
+intro,52,31,Multi-period Planning [Appliance],41,128,LP,AP,12,260,154
+linear,60,31,Aggregate Planning [Bus Drivers],45,200,LP,AP,13,301,154
+linear,60,31,Sceduling [Smalltown Police],46,200,LP,RA,14,301,154
+linear,60,31,Aggregate Planning [Shoemakers],47,200,LP,AP,15,301,154
+linear,60,31,Blending [NewAge Pharmaceutical],48,200,LP,RA,16,301,154
+linear,60,31,Blending [Candy],49,200,LP,AP,17,301,154
+linear,60,31,Blending[Sunblessed Juice],50,200,LP,RA,18,301,154
+linear,60,31,Aggregate Planning [Automobile],80,204,LP,RA,19,301,154
+linear,60,31,Finanical Planning [Mortgage Loan],81,204,LP,AP,20,301,154
+linear,60,31,Blending [Eli Lilly and Pfizer],84,205,LP,RA,21,301,154
+linear,60,31,Blending [Capsule Drugs],92,207,LP,AP,22,301,154
+linear,60,31,Blending [Baxter Labs],120,211,LP,RA,23,301,154
+linear,60,31,DEA [Salem Board of Education],42,198,LP,AP,24,301,154
+network,86,31,Transportation [Busville],42,268,NW,AP,25,428,154
+network,86,31,Shortest Path [New York - Los Angeles],43,268,NW,RA,26,428,154
+network,86,31,Assignment [National Bank],47,268,NW,AP,27,428,154
+network,86,31,Assignment [Swimming Coach],51,269,NW,RA,28,428,154
+network,86,31,Transshipment [Sunco],55,269,NW,AP,29,428,154
+network,86,31,Transshipment [Edsel Motors],57,270,NW,RA,30,428,154
+network,86,31,Assignment [Touche Young],49,269,NW,RA,31,428,154
+network,86,31,Transshipment [Widgets] ,53,269,NW,AP,32,428,154
+network,86,31,Assignment [Three Professors],65,271,NW,RA,33,428,154
+network,86,31,Assignment [Allied Freight],67,271,NW,AP,34,428,154
+network,86,31,Assignment [Kellwood],80,272,NW,RA,35,428,154
+network,86,31,Assignment [Paintings],81,273,NW,AP,36,428,154
+integer,73,31,Project Investment [Four Projects],39,326,IP,AP,37,367,154
+integer,73,31,Knapsack [New Jersey],41,326,IP,RA,38,367,154
+integer,73,31,Allocation [Sonderman & Abrahamson],47,326,IP,AP,39,367,154
+integer,73,31,Fixed Cost Production [A Manufacturer],49,327,IP,RA,40,367,154
+integer,73,31,Warehouse Location [A Company],50,327,IP,AP,41,367,154
+integer,73,31,Fixed Cost Production [A Product],53,327,IP,RA,42,367,154
+integer,73,31,Location [Eastinghouse],57,328,IP,RA,43,367,154
+integer,73,31,Fixed Cost [Machine tool],59,328,IP,AP,44,367,154
+integer,73,31,Set Covering [Fitzsimmons and Allen],71,329,IP,RA,45,367,154
+integer,73,31,Knapsack [Bean],74,330,IP,AP,46,367,154
+integer,73,31,Transportation [Four Trucks],82,331,IP,RA,47,367,154
+integer,73,31,Assignment [Medical Supply],90,332,IP,AP,48,367,154
+nonlinear,97,31,Pricing [Monopolist],49,400,NLP,AP,49,483,154
+nonlinear,97,31,Pricing [Two Companies],53,400,NLP,RA,50,483,154
+nonlinear,97,31,Location [Kolesar and Blum],60,401,NLP,AP,51,483,154
+nonlinear,97,31,Investment [Three Investments],63,402,NLP,RA,52,483,154
+nonlinear,97,31,Project [Oil Company],65,402,NLP,AP,53,483,154
+nonlinear,97,31,Capacity [Hospital],52,400,NLP,RA,54,483,154
+nonlinear,97,31,Machine Scheduling [Fourteen Jobs],20,450,NLP,RA,55,483,154
+nonlinear,97,31,Job Scheduling [Nine Jobs],21,450,NLP,AP,56,483,154
+nonlinear,97,31,Facility Location [Cook County],24,451,NLP,RA,57,483,154
+nonlinear,97,31,Product Mix [Product A B],23,450,NLP,AP,58,483,154
+nonlinear,97,31,Routing [Bus 99],29,451,NLP,RA,59,483,154
+nonlinear,97,31,Allocation [Fox NFL],34,452,NLP,AP,60,483,154
