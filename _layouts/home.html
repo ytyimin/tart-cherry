@@ -13,7 +13,7 @@ layout: default
       <h2 class="post-content">Revised Example Problem Sets</h2>
       {%- for exrs in site.data.exrs -%}
           <p>
-            <img src="{{ site.baseurl }}/assets/image/{{ exrs.content }}.png" alt="{{ exrs.content }}"><b>[{{ exrs.fileno }}]</b>.
+            <img src="{{ site.baseurl }}/assets/image/{{ exrs.content }}.png" alt="{{ exrs.content }}" width="26" height="15"><b>[{{ exrs.fileno }}]</b>.
               <em>{{ exrs.topic }}[{{ exrs.title }}]</em>. 
               <a class="button button2" href="{{ site.baseurl }}/assets/pdf/Ex{{ exrs.fileno }}[{{ exrs.title }}].pdf" target="_blank" rel="noopener">Problem</a>  
               <a class="button button2" href="{{ site.baseurl }}/assets/pdf/Ex{{ exrs.fileno }}[{{ exrs.title }}]_s.pdf" target="_blank" rel="noopener">Model</a>  
