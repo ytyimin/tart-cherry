@@ -13,7 +13,7 @@ layout: default
       <h3 class="post-content">Example Problem Sets</h3>
       {%- for example in site.data.examples -%}
           <p>
-            <b>{{ example.content }}</b>.
+            <b>{{ example.content }}-{{ example.filesequence }}</b>.
               <em>{{ example.topic }}</em>,
               Q. {{ example.question }}, P. {{ example.page }}. 
               <a class="button button1" href="{{ site.baseurl }}/assets/pdf/{{ example.filesequence }}[{{ example.editor }}].pdf" target="_blank" rel="noopener">Model</a>  
