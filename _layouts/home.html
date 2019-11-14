@@ -17,7 +17,7 @@ layout: default
               <em>{{ example.topic }}</em>,
               Q. {{ example.question }}, P. {{ example.page }}. 
               <a class="button button1" href="{{ site.baseurl }}/assets/pdf/{{ example.filesequence }}[{{ example.editor }}].pdf" target="_blank" rel="noopener">Model</a>  
-              <a class="button button1" href="{{ site.baseurl }}/assets/xlsx/{{ example.filesequence }}[{{ example.editor }}].xlsx" target="_blank" rel="noopener">Excel</a>  
+              <a class="button button1" href="{{ site.baseurl }}/assets/xlsx/{{ example.filesequence }}[{{ example.editor }}].xlsx" target="_self" rel="noopener">Excel</a>  
           </p>
       {%- endfor -%}
   {%- endif -%}
