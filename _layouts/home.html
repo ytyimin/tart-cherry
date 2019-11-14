@@ -26,7 +26,7 @@ layout: default
       <h2 class="post-content">Original Example Problem Sets</h2>
       {%- for example in site.data.examples -%}
           <p>
-            <img src="{{ site.baseurl }}/assets/image/{{ example.content }}.png" alt="{{ example.content }}" width="{{ example.width }}" height="{{ example.height }}"><b>[{{ example.filesequence }}]</b>.
+            <b>{{ example.content }} [{{ example.filesequence }}]</b>.
               <em>{{ example.topic }}</em>,
               Q. {{ example.question }}, P. {{ example.page }}. 
               <a class="button button1" href="{{ site.baseurl }}/assets/pdf/{{ example.filesequence }}[{{ example.editor }}].pdf" target="_blank" rel="noopener">Model</a>  
