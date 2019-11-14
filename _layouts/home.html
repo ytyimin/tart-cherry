@@ -13,11 +13,11 @@ layout: default
       <h3 class="post-content">Example Problem Sets</h3>
       {%- for example in site.data.examples -%}
           <p>
-              <b>{{ example.content }}</b>.
+              {{ example.content }}.
               <em>{{ example.topic }}</em>,
               Q. {{ example.question }}, P. {{ example.page }}. 
-              <a class="button button1" href="{{ site.baseurl }}/assets/pdf/{{ example.filesequence }}[{{ example.editor }}].pdf" target="_blank" rel="noopener">Model Solution</a>  
-              <a class="button button1" href="{{ site.baseurl }}/assets/xlsx/{{ example.filesequence }}[{{ example.editor }}].xlsx" target="_blank" rel="noopener">Excel Solution</a>  
+              <a class="button button1" href="{{ site.baseurl }}/assets/pdf/{{ example.filesequence }}[{{ example.editor }}].pdf" target="_blank" rel="noopener">Model</a>  
+              <a class="button button1" href="{{ site.baseurl }}/assets/xlsx/{{ example.filesequence }}[{{ example.editor }}].xlsx" target="_blank" rel="noopener">Excel</a>  
           </p>
       {%- endfor -%}
   {%- endif -%}
