@@ -4,6 +4,3 @@
 
 layout: home
 ---
-```
-Sixty Examples of Business Analytics Problems
-```
