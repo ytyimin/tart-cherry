@@ -400,7 +400,7 @@
 
 .flex-container {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   background-color: White;
 }
 
