@@ -10,7 +10,8 @@ layout: default
   {{ content }}
   
   {%- if site.data.exrs.size > 0 -%}
-      <h2 class="post-content">ANALYTICAL MODELLING EXAMPLES</h2>
+      <h2 class="post-content" style="text-align:center">ANALYTICAL MODELLING EXAMPLES</h2>
+
       {%- for exrs in site.data.exrs -%}
           <p>
             <b>{{ exrs.content }} [{{ exrs.fileno }}]</b>.
