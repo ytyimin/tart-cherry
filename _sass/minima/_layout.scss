@@ -414,6 +414,25 @@
   font-size: 30px;
 }
 
+
+.flex-container-body {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: White;
+  justify-content: center;
+}
+
+.flex-container-body > div {
+  background-color: #f1f1f1;
+  width: image-head-width;
+  margin: 15px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+
 /**
  * Grid helpers
  */
