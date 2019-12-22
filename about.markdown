@@ -12,4 +12,4 @@ These example problem sets were originally developed by Athira Praveen and Rames
 
 All opinions and solutions provided are solely the authors, and are not reflective of official department or school positions. If you notice any errors or would like to contribute, please contact me at <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>.
 
-Website design assisted by Aakash Anand <a class="u-email" href="mailto:aanand45@asu.edu">aanand45@asu.edu</a>.
+Website design assisted by <a class="u-email" href="mailto:aanand45@asu.edu">Aakash Anand</a>.
