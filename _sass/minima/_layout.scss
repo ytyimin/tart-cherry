@@ -417,7 +417,7 @@
 
 .flex-container-body {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   background-color: White;
   justify-content: center;
 }
