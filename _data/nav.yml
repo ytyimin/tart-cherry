@@ -1,0 +1,20 @@
+docs_list_title: TART_CHERRY Documentation
+docs:
+
+- title: Introduction
+  url: introduction.html
+
+- title: Linear
+  url: linear.html
+
+- title: Network
+  url: network.html
+  
+- title: Integer
+  url: integer.html
+
+- title: Nonlinear
+  url: nonlinear.html
+
+- title: Genetic
+  url: genetic.html
