@@ -4,13 +4,13 @@ layout: default
 
 <div class="home">
   {%- if page.title -%}
-  <h1 class="page-heading"><b>{{ page.title }}</b></h1>
+  <h2 class="post-content" style="text-align:center">{{ page.title }}</h2>
   {%- endif -%}
 
   {{ content }}
   
   {%- if site.data.exrs.size > 0 -%}
-      <h2 class="post-content" style="text-align:center">INTRODUCTORY MODELLING EXAMPLES</h2>
+      
 
       <div class="flex-container-body">
         <div><img src="{{ site.baseurl }}/assets/image/intro_new_s.jpg" alt="Introductory Modelling" width="image-head-width" height="image-head-height">
