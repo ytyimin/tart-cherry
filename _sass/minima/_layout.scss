@@ -105,11 +105,11 @@
     }
 
     .page-link {
-      display: inline;
+      display: block;
       padding: 0;
 
       &:not(:last-child) {
-        margin-right: 200px;
+        margin-right: 20px;
       }
       margin-left: auto;
     }
