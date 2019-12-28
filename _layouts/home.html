@@ -16,7 +16,7 @@ layout: default
         <div><img src="{{ site.baseurl }}/assets/image/{{ item.image }}" alt="{{ item.title }}" width="image-head-width" height="image-head-height">
         <hr style="height:1px">
         <br>
-        <a class="button button2" href="{{ site.baseurl }}/{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>  
+        <a class="button button2" href="{{ site.baseurl }}/{{ item.url }}" target="_self" rel="noopener">{{ item.title }}</a>  
       </div>
     {% endfor %}
   </div>
