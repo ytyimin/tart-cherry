@@ -3,5 +3,5 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: introduction
-title: Introductory Modelling Examples
+title: Introduction Modelling
 ---
