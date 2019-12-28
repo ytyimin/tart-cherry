@@ -2,19 +2,25 @@ docs_list_title: TART_CHERRY Documentation
 docs:
 
 - title: Introduction
+  image: intro_new_s.jpg
   url: introduction.html
 
 - title: Linear
+  image: linear_new_s.jpg
   url: linear.html
 
 - title: Network
+  image: network_new_s.jpg
   url: network.html
   
 - title: Integer
+  image: integer_new_s.jpg
   url: integer.html
 
 - title: Nonlinear
+  image: nonlinear_new_s.jpg
   url: nonlinear.html
 
 - title: Genetic
+  image: genetic_new_s.jpg
   url: genetic.html
