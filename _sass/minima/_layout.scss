@@ -29,9 +29,9 @@
 }
 
 .site-nav {
-  position: absolute;
+  position: relative;
   top: 9px;
-  right: $spacing-unit / 2;
+  left: $spacing-unit;
   background-color: $background-color;
   border: 1px solid $grey-color-light;
   border-radius: 5px;
