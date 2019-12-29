@@ -18,13 +18,13 @@ layout: default
             <div>
               <br>
               <p><b>{{ exrs.topic }}</b></p>
-              <br>
               <p>[{{ exrs.title }}]</p> 
               <hr style="height:1px">
               <br>
               <a class="button button1" href="{{ site.baseurl }}/assets/pdf/Ex{{ exrs.fileno }}[{{ exrs.title }}].pdf" target="_blank" rel="noopener">Problem</a>  
               <a class="button button1" href="{{ site.baseurl }}/assets/pdf/Ex{{ exrs.fileno }}[{{ exrs.title }}]_s.pdf" target="_blank" rel="noopener">Model</a>  
               <a class="button button1" href="{{ site.baseurl }}/assets/xlsx/Ex{{ exrs.fileno }}[{{ exrs.title }}]_s.xlsx" target="_self" rel="noopener">Excel</a>  
+              <p> </p>
             </div>
         {%- endfor -%}
         
