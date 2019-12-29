@@ -373,13 +373,13 @@
 .flex-container {
   display: flex;
   flex-flow: row wrap;
-  background-color: Grey;
+  background-color: White;
   justify-content: center;
   align-content: space-around;
 }
 
 .flex-container > div {
-  background-color: White;
+  background-color: Grey;
   width: flexbox-width;
   margin: spacing-unit;
   text-align: center;
