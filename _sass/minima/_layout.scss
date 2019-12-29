@@ -372,17 +372,18 @@
 
 .flex-container {
   display: flex;
+  width: content-width;
   flex-flow: row wrap;
   background-color: White;
   justify-content: center;
 }
 
 .flex-container > div {
-  background-color: #f1f1f1;
-  width: image-head-width;
-  margin: 20px;
+  background-color: grey-color;
+  width: flexbox-width;
+  margin: spacing-unit;
   text-align: center;
-  line-height: 15px;
+  line-height: base-font-size;
   font-size: base-font-size;
 }
 
