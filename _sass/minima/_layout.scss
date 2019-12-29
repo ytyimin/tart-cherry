@@ -374,7 +374,7 @@
   display: flex;
   flex-flow: row wrap;
   background-color: White;
-  justify-content: center;
+  justify-content: left;
   align-content: space-around;
 }
 
@@ -382,7 +382,7 @@
   background-color: #f1f1f1;
   width: 200px;
   margin: 20px;
-  text-align: center;
+  text-align: left;
   line-height: 25px;
   font-size: 16px;
 }
