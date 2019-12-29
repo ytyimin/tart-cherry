@@ -374,12 +374,12 @@
   display: flex;
   width: content-width;
   flex-flow: row wrap;
-  background-color: White;
+  background-color: Grey;
   justify-content: center;
 }
 
 .flex-container > div {
-  background-color: grey-color-dark;
+  background-color: White;
   width: flexbox-width;
   margin: spacing-unit;
   text-align: center;
