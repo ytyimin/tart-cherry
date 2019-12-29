@@ -379,12 +379,12 @@
 }
 
 .flex-container > div {
-  background-color: Grey;
-  width: flexbox-width;
-  margin: spacing-unit;
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 20px;
   text-align: center;
-  line-height: base-font-size*10;
-  font-size: base-font-size;
+  line-height: 100px;
+  font-size: 16px;
 }
 
 .flex-container-body {
