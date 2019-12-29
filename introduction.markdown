@@ -5,3 +5,4 @@
 layout: introduction
 title: Introductory Modelling
 ---
+This module gives you introduction about analytical modelling. Learn about how to write parameters, objective, decisions, and constraints. Learn how to solve the model in Excel.
