@@ -9,51 +9,27 @@ layout: default
 
   {{ content }}
   
-  {%- if site.data.exrs.size > 0 -%}
-      
+  {%- if site.data.linear.size > 0 -%}
 
-      <div class="flex-container-body">
-        <div><img src="{{ site.baseurl }}/assets/image/intro_new_s.jpg" alt="Introductory Modelling" width="image-head-width" height="image-head-height">
-        <hr style="height:1px">
-        <br>
-        <a class="button button2" href="{{ site.baseurl }}/assets/pdf/Ex{{ exrs.fileno }}[{{ exrs.title }}].pdf" target="_blank" rel="noopener">Introductory Modelling</a>  
-        </div>
-        <div><img src="{{ site.baseurl }}/assets/image/linear_new_s.jpg" alt="Linear Modelling" width="image-head-width" height="image-head-height">
-        <hr style="height:1px">
-        <br>
-        <a class="button button2" href="{{ site.baseurl }}/assets/pdf/Ex{{ exrs.fileno }}[{{ exrs.title }}].pdf" target="_blank" rel="noopener">Linear Modelling</a>  
-        </div>
-        <div><img src="{{ site.baseurl }}/assets/image/network_new_s.jpg" alt="Network Modelling" width="image-head-width" height="image-head-height">
-        <hr style="height:1px">
-        <br>
-        <a class="button button2" href="{{ site.baseurl }}/assets/pdf/Ex{{ exrs.fileno }}[{{ exrs.title }}].pdf" target="_blank" rel="noopener">Network Modelling</a>
-        </div>
-        <div><img src="{{ site.baseurl }}/assets/image/integer_new_s.jpg" alt="Integer Modelling" width="image-head-width" height="image-head-height">
-        <hr style="height:1px">
-        <br>
-        <a class="button button2" href="{{ site.baseurl }}/assets/pdf/Ex{{ exrs.fileno }}[{{ exrs.title }}].pdf" target="_blank" rel="noopener">Integer Modelling</a>  
-        </div>
-        <div><img src="{{ site.baseurl }}/assets/image/nonlinear_new_s.jpg" alt="Nonlinear Modelling" width="image-head-width" height="image-head-height">
-        <hr style="height:1px">
-        <br>
-        <a class="button button2" href="{{ site.baseurl }}/assets/pdf/Ex{{ exrs.fileno }}[{{ exrs.title }}].pdf" target="_blank" rel="noopener">Nonlinear Modelling</a>
-        </div>
-        <div><img src="{{ site.baseurl }}/assets/image/genetic_new_s.jpg" alt="Genetic Modelling" width="image-head-width" height="image-head-height">
-        <hr style="height:1px">
-        <br>
-        <a class="button button2" href="{{ site.baseurl }}/assets/pdf/Ex{{ exrs.fileno }}[{{ exrs.title }}].pdf" target="_blank" rel="noopener">Genetic Modelling</a>
-        </div>
+      <div class="flex-container">
+
+        {%- for exrs in site.data.introduction -%}
+     
+            <div>
+              <br>
+              <p><b>{{ exrs.seq }}. {{ exrs.name }}</b></p>
+              <p>[{{ exrs.typeTopic }}]</p> 
+              <hr style="height:1px">
+              <br>
+              <a class="button button1" href="{{ site.baseurl }}/assets/problemsets/{{ exrs.fileName }}[{{ exrs.name }}].docx" target="_self" rel="noopener">Problem</a>  
+              <a class="button button1" href="{{ site.baseurl }}/assets/problemsets/{{ exrs.fileName }}[{{ exrs.name }}]_s.docx" target="_self" rel="noopener">Model</a>  
+              <a class="button button1" href="{{ site.baseurl }}/assets/problemsets/{{ exrs.fileName }}[{{ exrs.name }}]_s.xlsx" target="_self" rel="noopener">Excel</a>  
+              <p> </p>
+            </div>
+        {%- endfor -%}
+        
       </div>
   
-      {%- for exrs in site.data.exrs -%}
-          <p>
-            <b>{{ exrs.content }} [{{ exrs.fileno }}]</b>.
-              <em>{{ exrs.topic }}[{{ exrs.title }}]</em>. 
-              <a class="button button1" href="{{ site.baseurl }}/assets/pdf/Ex{{ exrs.fileno }}[{{ exrs.title }}].pdf" target="_blank" rel="noopener">Problem</a>  
-              <a class="button button1" href="{{ site.baseurl }}/assets/pdf/Ex{{ exrs.fileno }}[{{ exrs.title }}]_s.pdf" target="_blank" rel="noopener">Model</a>  
-              <a class="button button1" href="{{ site.baseurl }}/assets/xlsx/Ex{{ exrs.fileno }}[{{ exrs.title }}]_s.xlsx" target="_self" rel="noopener">Excel</a>  
-          </p>
-      {%- endfor -%}
   {%- endif -%}
 
 
