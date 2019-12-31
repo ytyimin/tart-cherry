@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: TART CHERRY
+title: MSBA518
 email: ytyimin@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Example problem sets for business analytics.
