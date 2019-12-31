@@ -6,7 +6,7 @@ layout: default
 title: About
 ---
 
-# Example problem sets 
+# Acknowledgement 
 
 These example problem sets were originally developed by Athira Praveen and Ramesh Alla. The development is partially funded by the Department of Supply Chain Management, W. P. Carey School of Business at Arizona State University.
 
