@@ -10,9 +10,7 @@ title: About
 
 These example problem sets were originally developed by Athira Praveen and Ramesh Alla. The development is partially funded by the Department of Supply Chain Management, W. P. Carey School of Business at Arizona State University.
 
-The following table list contributor information for the current problem sets.
-
-https://arizonastateu-my.sharepoint.com/:x:/g/personal/ywang195_asurite_asu_edu/EavN7HbroL1Dm5tIqoF9usABDw6znfrd1NH6mhfQ4oDwyQ?e=EMkmxG
+The following table list <a href="https://arizonastateu-my.sharepoint.com/:x:/g/personal/ywang195_asurite_asu_edu/EavN7HbroL1Dm5tIqoF9usABDw6znfrd1NH6mhfQ4oDwyQ?e=EMkmxG">contributor</a> information for the current problem sets.
 
 <iframe width="700" height="400" frameborder="0" scrolling="no" src="https://arizonastateu-my.sharepoint.com/personal/ywang195_asurite_asu_edu/_layouts/15/Doc.aspx?sourcedoc={76eccdab-a0eb-43bd-9b9b-48aa817dbac0}&action=embedview&ActiveCell='final_upload'!A1&Item='final_upload'!A1%3AF65&wdDownloadButton=True&wdInConfigurator=True"></iframe>
 
