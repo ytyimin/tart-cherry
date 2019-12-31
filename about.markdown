@@ -8,7 +8,7 @@ title: About
 
 # Example problem sets 
 
-These example problem sets were originally developed by Athira Praveen and Ramesh Alla, primarily based on the textbook Practical Mangement Science. The development is partially funded by the Department of Supply Chain Management, W. P. Carey School of Business at Arizona State University.
+These example problem sets were originally developed by Athira Praveen and Ramesh Alla. The development is partially funded by the Department of Supply Chain Management, W. P. Carey School of Business at Arizona State University.
 
 The following table list contributor information for the current problem sets.
 
