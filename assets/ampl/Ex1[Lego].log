@@ -1,0 +1,20 @@
+ampl: model Ex1[Lego].mod;
+ampl: data Ex1[Lego].dat;
+ampl: option solver cplex;
+ampl: solve;
+CPLEX 12.9.0.0: optimal solution; objective 1400
+1 dual simplex iterations (0 in phase I)
+ampl: expand;
+minimize Tot_Cost:
+	400*X[1] + 100*X[2];
+
+subject to Dem['A']:
+	300*X[1] + 100*X[2] >= 1000;
+
+subject to Dem['X']:
+	100*X[1] + 100*X[2] >= 500;
+
+subject to Dem['Y']:
+	100*X[1] >= 300;
+
+ampl: exit;

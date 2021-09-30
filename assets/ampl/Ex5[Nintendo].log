@@ -1,0 +1,40 @@
+ampl: model Ex5[Nintendo].mod;
+ampl: data Ex5[Nintendo].dat;
+ampl: option solver cplex;
+ampl: solve;
+CPLEX 12.9.0.0: optimal solution; objective 440000
+0 dual simplex iterations (0 in phase I)
+ampl: display X, I;
+:    X      I      :=
+0     .     500
+1   3000   1000
+2      0   1500
+3      0      0
+;
+
+ampl: display D;
+D [*] :=
+1  2000
+2  1000
+3  1500
+;
+
+ampl: expand;
+minimize Cost:
+	20*I[1] + 20*I[2] + 20*I[3] + 130*X[1] + 140*X[2] + 150*X[3];
+
+subject to Inv_bal[1]:
+	I[0] + 0.5*X[1] >= 2000;
+
+subject to Inv_bal[2]:
+	I[1] + 0.5*X[2] >= 1000;
+
+subject to Inv_bal[3]:
+	I[2] + 0.5*X[3] >= 1500;
+
+subject to Ini_inv:
+	I[0] = 500;
+ampl: display Cost;
+Cost = 440000
+
+ampl: exit;

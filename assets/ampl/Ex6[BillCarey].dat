@@ -1,0 +1,13 @@
+data;
+
+set I := C	V;
+
+param W:= 120;
+param C:= 450;
+param F:= 25;
+
+param: 	w		c		f 		T:=
+C		37		120		5		95
+V		65		160		10		85
+;
+ 

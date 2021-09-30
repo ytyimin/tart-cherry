@@ -1,0 +1,21 @@
+data;
+
+param P:= 4;
+param PR:= 60;
+param h:= 20;
+param n:= 1000;
+			
+param D :=
+1	600	  
+2	800	
+3	1200
+4	900
+;
+
+param c	:=
+1	80	  
+2	100	
+3	105
+4	90
+;
+

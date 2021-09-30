@@ -1,0 +1,32 @@
+ampl: model Ex28[ToyShop].mod;
+ampl: data Ex28[ToyShop].dat;
+ampl: option solver cplex;
+ampl: solve;
+CPLEX 12.9.0.0: optimal solution; objective 224650
+0 dual simplex iterations (0 in phase I)
+ampl: display X;
+X [*] :=
+1   720
+2   800
+3  1750
+4     0
+;
+
+ampl: display I;
+I [*] :=
+0    0
+1    0
+2    0
+3  750
+4    0
+;
+
+ampl: display D;
+D [*] :=
+1   720
+2   800
+3  1000
+4   750
+;
+
+ampl: exit;

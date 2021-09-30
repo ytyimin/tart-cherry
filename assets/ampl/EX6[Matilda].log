@@ -1,0 +1,26 @@
+ampl: model EX6[Matilda].mod;
+ampl: data EX6[Matilda].dat;
+ampl: option solver cplex;
+ampl: solve;
+CPLEX 12.9.0.0: optimal solution; objective 12187.5
+2 dual simplex iterations (1 in phase I)
+ampl: display X;
+X [*] :=
+FL  2.5
+ K  0
+;
+
+ampl: expand;
+maximize Index:
+	2405*X['K'] + 4875*X['FL'];
+
+subject to weight:
+	37*X['K'] + 65*X['FL'] >= 120;
+
+subject to calories:
+	120*X['K'] + 160*X['FL'] <= 450;
+
+subject to fat:
+	5*X['K'] + 10*X['FL'] <= 25;
+
+ampl: exit;

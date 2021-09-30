@@ -1,0 +1,30 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col one-half">
+          <ul class="contact-list">
+            <li>
+              {%- if site.email -%}
+                <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }} |</a>
+              {%- endif -%}
+              {%- if site.url -%}
+                <a class="u-email" href="https://github.com/{{ site.github_username }}"> https://github.com/{{ site.github_username }}</a>
+              {%- endif -%}
+            </li>
+        </ul>
+      </div>
+      <div class="footer-col one-half">
+          <ul class="contact-list">
+            <li>
+              <a class="u-email" href="https://github.com/jekyll/minima">jekyll minima</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

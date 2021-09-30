@@ -1,0 +1,13 @@
+data;
+
+set I := K	FL;
+
+param W:= 120;
+param C:= 450;
+param F:= 25;
+
+param: 	w		c		f 		T:=
+ K		37		120		5		65
+ FL		65		160		10		75
+;
+ 

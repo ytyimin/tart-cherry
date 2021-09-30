@@ -1,0 +1,13 @@
+data;
+
+set I := W	C	R;
+param L := 4500;
+param W := 1000;
+param F := 1200;
+
+param: 	 	P		u 	f	c:=
+W			1000	2	5	20
+C			2000	3	2	15
+R			3000	2	4	15
+;
+

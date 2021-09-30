@@ -1,0 +1,44 @@
+ampl: model Ex4[Fitbits].mod;
+ampl: data Ex4[Fitbits].dat;
+ampl: option solver cplex;
+ampl: solve;
+CPLEX 12.9.0.0: optimal solution; objective 152500
+0 dual simplex iterations (0 in phase I)
+ampl: display X;
+X [*] :=
+1  1150
+2     0
+3  1700
+4     0
+;
+
+ampl: display I;
+I [*] :=
+0    0
+1  650
+2    0
+3  700
+4    0
+;
+
+ampl: expand;
+minimize Total_Cost:
+	20*I[1] + 20*I[2] + 20*I[3] - 40*I[4] + 50*X[1] + 80*X[2] + 40*X[3] + 
+	70*X[4];
+
+subject to Inv_bal[1]:
+	-I[0] + I[1] - X[1] = -500;
+
+subject to Inv_bal[2]:
+	-I[1] + I[2] - X[2] = -650;
+
+subject to Inv_bal[3]:
+	-I[2] + I[3] - X[3] = -1000;
+
+subject to Inv_bal[4]:
+	-I[3] + I[4] - X[4] = -700;
+
+subject to Ini_inv:
+	I[0] = 0;
+
+ampl: exit;

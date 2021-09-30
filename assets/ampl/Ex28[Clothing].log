@@ -1,0 +1,27 @@
+ampl: model Ex28[Clothing].mod;
+ampl: data Ex28[Clothing].dat;
+ampl: option solver cplex;
+ampl: solve;
+CPLEX 12.9.0.0: optimal solution; objective 335000
+0 dual simplex iterations (0 in phase I)
+ampl: display X;
+X [*] :=
+1   600
+2   800
+3  1200
+4   900
+;
+
+ampl: display I;
+I [*] :=
+0  0
+1  0
+2  0
+3  0
+4  0
+;
+
+ampl: display Total_Cost;
+Total_Cost = 335000
+
+ampl: exit;

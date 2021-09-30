@@ -1,0 +1,27 @@
+ampl: model Ex3[Farmer].mod;
+ampl: data Ex3[Farmer].dat;
+ampl: option solver cplex;
+ampl: solve;
+CPLEX 12.9.0.0: optimal solution; objective 999885
+2 dual simplex iterations (1 in phase I)
+ampl: display X;
+X [*] :=
+C  200
+R  200
+W    0
+;
+
+ampl: expand;
+maximize Tot_Prof:
+	1000*X['W'] + 2000*X['C'] + 3000*X['R'] - 115;
+
+subject to Lim:
+	X['W'] + X['C'] + X['R'] <= 4500;
+
+subject to Const1:
+	2*X['W'] + 3*X['C'] + 2*X['R'] <= 1000;
+
+subject to Cons2:
+	5*X['W'] + 2*X['C'] + 4*X['R'] <= 1200;
+
+ampl: exit;

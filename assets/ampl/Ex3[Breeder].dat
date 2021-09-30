@@ -1,0 +1,12 @@
+data;
+
+set I := C	S;
+param L := 600;
+param W := 1400;
+param F := 1000;
+
+param: 	 	P			u 		f:=
+C			80000		6		7
+S			50000		4		5
+;
+

@@ -1,0 +1,40 @@
+ampl: model Ex3[Breeder].mod;
+ampl: data Ex3[Breeder].dat;
+ampl: option solver cplex;
+ampl: solve;
+CPLEX 12.9.0.0: optimal solution; objective 11428571.43
+1 dual simplex iterations (1 in phase I)
+ampl: display X;
+X [*] :=
+C  142.857
+S    0
+;
+
+ampl: expand;
+maximize Tot_Prof:
+	80000*X['C'] + 50000*X['S'];
+
+subject to Lim:
+	X['C'] + X['S'] <= 600;
+
+subject to Cons1:
+	6*X['C'] + 4*X['S'] <= 1400;
+
+subject to Cons2:
+	7*X['C'] + 5*X['S'] <= 1000;
+
+ampl: display Tot_Prof;
+Tot_Prof = 11428600
+
+ampl: show;
+
+parameters:   F   L   P   W   f   u
+
+set:   I
+
+variable:   X
+
+constraints:   Cons1   Cons2   Lim
+
+objective:   Tot_Prof
+ampl: exit;

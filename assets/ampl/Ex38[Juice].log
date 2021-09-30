@@ -1,0 +1,47 @@
+ampl: model Ex38[Juice].mod;
+ampl: data Ex38[Juice].dat;
+ampl: option solver cplex;
+ampl: solve;
+CPLEX 12.9.0.0: optimal integer solution; objective 6387
+1 MIP simplex iterations
+0 branch-and-bound nodes
+ampl: display X;
+X :=
+1 1     5
+1 2   245
+2 1   152
+2 2    18
+;
+
+ampl: expand;
+minimize Tot_Cost:
+	16.5*X[1,1] + 13.5*X[1,2] + 18*X[2,1] + 14.5*X[2,2];
+
+subject to labor:
+	0.75*X[1,1] + 0.75*X[1,2] + 1.2*X[2,1] + X[2,2] <= 400;
+
+subject to demand[1]:
+	X[1,1] + X[1,2] >= 250;
+
+subject to demand[2]:
+	X[2,1] + X[2,2] >= 170;
+
+subject to mach[1]:
+	0.7*X[1,1] + 0.8*X[2,1] <= 200;
+
+subject to mach[2]:
+	0.75*X[1,2] + 0.9*X[2,2] <= 200;
+
+subject to req[1,1]:
+	X[1,1] >= 0;
+
+subject to req[1,2]:
+	X[1,2] >= 85;
+
+subject to req[2,1]:
+	X[2,1] >= 125;
+
+subject to req[2,2]:
+	X[2,2] >= 0;
+
+ampl: exit;

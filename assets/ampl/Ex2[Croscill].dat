@@ -1,0 +1,11 @@
+data;
+
+set I := B	C	CC ;
+param U := 1000000;
+param c := 0.01;
+
+param: 	 P		u :=
+ B		70		2925
+ C		180		6888
+CC		40		256
+;

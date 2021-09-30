@@ -1,0 +1,26 @@
+ampl: model Ex3[EnergyFarm].mod;
+ampl: data Ex3[EnergyFarm].dat;
+ampl: option solver cplex;
+ampl: solve;
+CPLEX 12.9.0.0: optimal solution; objective 1e+06
+2 dual simplex iterations (1 in phase I)
+ampl: display X;
+X [*] :=
+S  200
+W  200
+;
+
+ampl: expand;
+maximize Tot_Prof:
+	2000*X['S'] + 3000*X['W'];
+
+subject to Lim:
+	X['S'] + X['W'] <= 450;
+
+subject to Const1:
+	3*X['S'] + 2*X['W'] <= 1000;
+
+subject to Cons2:
+	2*X['S'] + 4*X['W'] <= 1200;
+
+ampl: exit;

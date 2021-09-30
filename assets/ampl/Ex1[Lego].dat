@@ -1,0 +1,21 @@
+data;
+
+set I := 1 2;
+set J := A X Y;
+
+param D :=
+ A		1000
+ X		500
+ Y		300
+ ;
+ 
+ param 	C :=
+ 1		400
+ 2		100
+ ;
+ 
+ param Y: 	A		X 		Y:=
+ 1			300		100		100
+ 2			100		100		0
+ ;
+ 

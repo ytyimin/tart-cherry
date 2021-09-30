@@ -1,0 +1,20 @@
+ampl: model Ex1[IceCream].mod;
+ampl: data Ex1[IceCream].dat;
+ampl: option solver cplex;
+ampl: solve;
+CPLEX 12.9.0.0: optimal solution; objective 1400
+1 dual simplex iterations (0 in phase I)
+ampl: expand;
+minimize Tot_Cost:
+	400*X[1] + 100*X[2];
+
+subject to Dem['C']:
+	300*X[1] + 100*X[2] >= 1000;
+
+subject to Dem['M']:
+	100*X[1] + 100*X[2] >= 500;
+
+subject to Dem['V']:
+	100*X[1] >= 300;
+
+ampl: exit;

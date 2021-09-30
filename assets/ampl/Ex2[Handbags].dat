@@ -1,0 +1,9 @@
+data;
+
+set I := Handbag	Purse;
+param U := 2000;
+
+param: 	 	P		u :=
+Handbag		400		4
+Purse		250		3
+;

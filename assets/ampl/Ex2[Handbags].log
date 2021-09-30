@@ -1,0 +1,34 @@
+ampl: model Ex2[Handbags].mod;
+ampl: data Ex2[Handbags].dat;
+ampl: option solver cplex;
+ampl: solve;
+CPLEX 12.9.0.0: optimal solution; objective 180000
+0 dual simplex iterations (0 in phase I)
+ampl: display X;
+X [*] :=
+Handbag  200
+  Purse  400
+;
+
+ampl: expand;
+maximize Tot_Prof:
+	400*X['Handbag'] + 250*X['Purse'];
+
+subject to Lim:
+	4*X['Handbag'] + 3*X['Purse'] <= 2000;
+
+subject to Cons1:
+	-2*X['Handbag'] + X['Purse'] >= 0;
+
+ampl: show;
+
+parameters:   P   U   u
+
+set:   I
+
+variable:   X
+
+constraints:   Cons1   Lim
+
+objective:   Tot_Prof
+ampl: exit;

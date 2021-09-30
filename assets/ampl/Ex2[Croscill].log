@@ -1,0 +1,27 @@
+ampl: model Ex2[Croscill].mod;
+ampl: data Ex2[Croscill].dat;
+ampl: option solver cplex;
+ampl: solve;
+CPLEX 12.9.0.0: optimal solution; objective 19248.67344
+0 dual simplex iterations (0 in phase I)
+ampl: expand;
+maximize Tot_Prof:
+	40.75*X['B'] + 111.12*X['C'] + 37.44*X['CC'];
+
+subject to Lim:
+	2925*X['B'] + 6888*X['C'] + 256*X['CC'] <= 1e+06;
+
+subject to Cons1:
+	X['B'] - 2*X['CC'] >= 0;
+
+subject to Const2:
+	X['C'] >= 10;
+
+ampl: display X;
+X [*] :=
+ B  304.985
+ C   10
+CC  152.493
+;
+
+ampl: exit;

@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+  <h2 class="post-content" style="text-align:center">{{ page.title }}</h2>
+  {%- endif -%}
+
+  {{ content }}
+  
+  {%- if site.data.network.size > 0 -%}
+
+      <div class="flex-container">
+
+        {%- for exrs in site.data.network -%}
+     
+            <div>
+              <br>
+              <p><b>{{ exrs.seq }}. {{ exrs.name }}</b></p>
+              <p>[{{ exrs.typeTopic }}]</p> 
+              <hr style="height:1px">
+              <br>
+              <a class="button button1" href="{{ site.baseurl }}/assets/problemsets/{{ exrs.fileName }}[{{ exrs.name }}].docx" target="_self" rel="noopener">Problem</a>  
+              <a class="button button1" href="{{ site.baseurl }}/assets/problemsets/{{ exrs.fileName }}[{{ exrs.name }}]_s.docx" target="_self" rel="noopener">Model</a>  
+              <a class="button button1" href="{{ site.baseurl }}/assets/problemsets/{{ exrs.fileName }}[{{ exrs.name }}]_s.xlsx" target="_self" rel="noopener">Excel</a>  
+              <a class="button button1" href="{{ site.baseurl }}/assets/python/{{ exrs.fileName }}[{{ exrs.name }}]_s.ipynb" target="_self" rel="noopener">Python</a>  
+              <p> </p>
+            </div>
+        {%- endfor -%}
+        
+      </div>
+  
+  {%- endif -%}
+
+
+</div>

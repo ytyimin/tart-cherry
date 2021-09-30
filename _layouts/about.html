@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="home">
+  
+  {{ content }}
+  
+  {%- if site.data.executive_contributors.size > 0 -%}
+
+    
+    <br>
+    <p><b>Executive Contributors</b></p>
+    
+    <div class="flex-container">  
+      
+      {%- for exrs in site.data.executive_contributors -%}
+         &#9642;  &nbsp {{exrs.name }} &nbsp
+      {%- endfor -%}
+      &#9642;  &nbsp
+    </div>  
+   
+  {%- endif -%}
+
+  {%- if site.data.staff_contributors.size > 0 -%}
+
+    
+    <br>
+    <p><b>Staff Contributors</b></p>
+    
+    <div class="flex-container">  
+      
+      {%- for exrs in site.data.staff_contributors -%}
+         &#9643;  &nbsp {{exrs.name }} &nbsp
+      {%- endfor -%}
+      &#9643;  &nbsp
+    </div>  
+   
+  {%- endif -%}
+
+</div>
