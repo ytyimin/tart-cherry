@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="referrer" content="origin-when-cross-origin">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow" />
+<title>Priyanka Agrawal's Zoom Meeting - Zoom</title><script type="text/javascript" nonce=4b3axkf5QY28vhwjXuCkTQ src="/assets/zm_bundle.js?cache"> </script> <script type="text/javascript" nonce=4b3axkf5QY28vhwjXuCkTQ src="/assets/zm_bundle.js?async" async> </script>
+<link rel="shortcut icon" href="https://us02st1.zoom.us/zoom.ico" />
+<link href="https://st1.zoom.us/fe-static/recording-player/css/chunk-vendors.785b724e.css" rel=stylesheet>
+<link href="https://st1.zoom.us/fe-static/recording-player/css/app.c5e4f0da.css" rel=stylesheet>
+<!--[if lt IE 9]>
+<style>
+.fallback {
+text-align: center;
+}
+.fallback .title {
+margin-top: 160px;
+font-size: 24px;
+font-weight: bold;
+line-height: 30px;
+}
+.fallback .text {
+margin: 16px auto;
+width: 800px;
+font-size: 16px;
+line-height: 24px;
+}
+</style>
+<![endif]-->
+<script nonce="4b3axkf5QY28vhwjXuCkTQ" type="text/javascript">
+var resourceAccountIdRoutingURl = "t_x_zm_rid=1";
+resourceAccountIdRoutingURl = resourceAccountIdRoutingURl==""?undefined:resourceAccountIdRoutingURl;
+</script>
+</head>
+<body style="overflow: hidden; height:100%">
+<!--[if lt IE 9]>
+<div class="fallback">
+<h1 class="title">The recording cannot be played on the current browser</h1>
+<p class="text">The recording can only be viewed on the following browsers: Internet Explorer 11+, Google Chrome, Safari, and Mozilla Firefox with their latest version. Please update your browser and try again later.</p>
+</div>
+<![endif]-->
+<div id="app" class="recording-player">
+<svg class="circular" viewBox="25 25 50 50" role="button" aria-label="loading" tabindex="0">
+<circle class="path" cx="50" cy="50" r="20" fill="none" />
+</svg>
+<style>
+.circular {
+position: relative;
+top: 150px;
+left: 50%;
+height: auto;
+width: 42px;
+margin-top: -21px;
+margin-left: -21px;
+animation: loading-rotate 2s linear infinite;
+}
+.path {
+animation: loading-dash 1.5s ease-in-out infinite;
+stroke-dasharray: 90, 150;
+stroke-dashoffset: 0;
+stroke-width: 2;
+stroke: #0E71EB;
+stroke-linecap: round;
+}
+@keyframes loading-rotate {
+100% {
+transform: rotate(360deg);
+}
+}
+@keyframes loading-dash {
+0% {
+stroke-dasharray: 1, 200;
+stroke-dashoffset: 0;
+}
+50% {
+stroke-dasharray: 90, 150;
+stroke-dashoffset: -40px;
+}
+100% {
+stroke-dasharray: 90, 150;
+stroke-dashoffset: -120px;
+}
+}
+</style></div>
+<script nonce="4b3axkf5QY28vhwjXuCkTQ" type="text/javascript">
+var SB = {
+version: '5.2.3280',
+contextPath: '',
+baseUrl: 'https://asu.zoom.us',
+baseStaticUrl: 'https://us02st3.zoom.us/static/5.2.3280',
+loggedIn: false,
+fbLoggedIn: false,
+fbAppkey: '113289095462482',
+fbAppPage: 'https://apps.facebook.com/zoomvideocall/',
+fbScope: 'email,public_profile',
+pardotPaymentUrl : 'https://go.pardot.com/l/84442/2015-07-23/mw5t',
+pardotBuyUrl : 'https://go.pardot.com/l/84442/2015-07-14/4xht',
+pardotSubscriptionUrl : 'https://go.pardot.com/l/84442/2015-07-23/mv5y',
+pardotActivateUserUrl : 'https://go.pardot.com/l/84442/2015-10-23/mspcv'
+};
+</script>
+<script nonce="4b3axkf5QY28vhwjXuCkTQ" src="/csrf_js?t_x_zm_rid=1"></script>
+<script nonce="4b3axkf5QY28vhwjXuCkTQ" src="https://us02st3.zoom.us/static/5.2.3280/js/lib/vue/vue.min.js"></script>
+<script nonce="4b3axkf5QY28vhwjXuCkTQ">
+// inject some global data here
+window.domainFromServer= 'https://st1.zoom.us/fe-static/';
+window.__data__ = {
+logo: {
+img:  "https://us02st1.zoom.us/static/5.2.3280/image/new/ZoomLogo.png" ,
+link: 'https://asu.zoom.us/',
+alt:  "Zoom Logo" 
+},
+isVideo: true,
+hasPermissionEdit: false,
+isRecordingHostSelf: false,
+topic: "Priyanka Agrawal\'s Zoom Meeting",
+meetingId: 'a2QVbECbQFuUuxVM%2BwzxWg%3D%3D',
+recordingId: '545e3b27-8e8b-4cd1-8e55-23904705e30a',
+playId: 'F28XPR2MdH1b4B2uMHAY0DcfW97-QYFg4rohKlVoJ5xpIl4rAfUjQD14wmmI5Bmj.6ZEGloEUNKBqUq1B',
+clipStartTime: 1638333541000,
+continueMode: 1,
+totalClips: 1,
+currentClip: 1,
+nextClipStartTime: -1,
+previousClipStartTime: -1,
+recordFileName: "Shared screen with speaker view" ,
+multistream: 0,
+shareMp4Url: '',
+shareResolvtionsWidth: 0,
+shareResolvtionsHeight: 0,
+viewMp4Url: 'https://ssrweb.zoom.us/replay03/2021/12/01/6B64156C-409B-405B-94BB-154CFB0CF15A/GMT20211201-043901_Recording_3200x1800.mp4?response-content-type=video%2Fmp4&response-cache-control=max-age%3D0%2Cs-maxage%3D86400&data=b74fd599b0e6cc3ec001df1375f72724f4e70f0f6104f32689ac9f2240ed6c9b&s001=yes&cid=us02&fid=KeuzHUFpXLr45pZHSzYCNINM1zzhBLFEV1vHmk0w6WuHFFRxUEK7gbAArpO6odHhQRnBVzTnbSgn_Q10.EJHHNIwEOyxNn7Tx&s002=7Sig-u3tPTgaIJlqS7pdiR4b3qFD6AnGoCneEgdE1L4f_HTCMD8aYwTC9w._llblqICk2RyMzFF&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vc3Nyd2ViLnpvb20udXMvcmVwbGF5MDMvMjAyMS8xMi8wMS82QjY0MTU2Qy00MDlCLTQwNUItOTRCQi0xNTRDRkIwQ0YxNUEvR01UMjAyMTEyMDEtMDQzOTAxX1JlY29yZGluZ18zMjAweDE4MDAubXA0P3Jlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCZyZXNwb25zZS1jYWNoZS1jb250cm9sPW1heC1hZ2UlM0QwJTJDcy1tYXhhZ2UlM0Q4NjQwMCZkYXRhPWI3NGZkNTk5YjBlNmNjM2VjMDAxZGYxMzc1ZjcyNzI0ZjRlNzBmMGY2MTA0ZjMyNjg5YWM5ZjIyNDBlZDZjOWImczAwMT15ZXMmY2lkPXVzMDImZmlkPUtldXpIVUZwWExyNDVwWkhTellDTklOTTF6emhCTEZFVjF2SG1rMHc2V3VIRkZSeFVFSzdnYkFBcnBPNm9kSGhRUm5CVnpUbmJTZ25fUTEwLkVKSEhOSXdFT3l4Tm43VHgmczAwMj03U2lnLXUzdFBUZ2FJSmxxUzdwZGlSNGIzcUZENkFuR29DbmVFZ2RFMUw0Zl9IVENNRDhhWXdUQzl3Ll9sbGJscUlDazJSeU16RkYiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2MzgzNDAwMTV9fX1dfQ__&Signature=Axgg8~tVo2g7HkEY~2z-eU5IkNsM1tFKOdvbjQNkpkdDAkFlTH45o-q83TQMcNJY0r1qSaaHB4urkAcltT9cB6jwASabPqirJ2S9bnfN~Mob3KsbQ~Ody3RBTRhbsfXndmwK-QL8gu8BnoJ8g7ueKP-upANG4hX1Q4059Av84E9iZuC4a7b2NuhcRC5bQ0wpNcZC0S3Gil8HpZHsaIS8Wfjc52HkHLu961UiK18bVq74BF4kWrcQ1sXi0ZprC3JicQO1QidVK~0nWgObogmHk5atUovrZNxvt6aoJz8~Ijj6PpY9G0f~AznoL5tDh7ElH~SqCyw4hncA~yclpczv2Q__&Key-Pair-Id=APKAJFHNSLHYCGFYQGIA',
+gallaryMp4Url: '',
+offsetStart: 0,
+offsetEnd: 0,
+viewResolvtionsWidth: 3200,
+viewResolvtionsHeight: 1800,
+shareVideoId: '',
+transcriptList: [],
+chatList: [],
+chapterSections: [],
+chapterUrl: '/rec/play/vtt?fid=KeuzHUFpXLr45pZHSzYCNINM1zzhBLFEV1vHmk0w6WuHFFRxUEK7gbAArpO6odHhQRnBVzTnbSgn_Q10.EJHHNIwEOyxNn7Tx&action=play',
+ccUrl: '',
+transcriptUrl: '',
+disableDownload: true,
+clipDownload: true,
+numOfClipFile: 2,
+fileSize: '28 MB',
+playCheckInterval: 60,
+clusterId: 'us02',
+playCheckId: 'KeuzHUFpXLr45pZHSzYCNINM1zzhBLFEV1vHmk0w6WuHFFRxUEK7gbAArpO6odHhQRnBVzTnbSgn_Q10.EJHHNIwEOyxNn7Tx',
+polls: [],
+accessId: 'uLQGp3qgsljGnfB3IqhGyfhjV-roK_icZiPFlWp_XIFszV_NYF6RlTgxURXB9BC8NpHuKQ.tQYlpk2WwKRFH-t_',
+showCcDropDown: false,
+onZoom: false,
+enableHighlight: false,
+highlightMergeInterval: 5,
+canEditHighlight: false,
+tranLocalJsonFileId: '',
+tranWebVttFileId: '',
+isSignedInViewer: false,
+cutRanges: [],
+fileStartTime: 1638333541000,
+recordMeetId: 'a2QVbECbQFuUuxVM+wzxWg==',
+isHighlightFile: false,
+trimDelDate: '',
+trimming: false,
+useFakeTrim: true,
+trimKeepDays: 30,
+isRecordingHost: false,
+showTrimDerivedBtn: false,
+isRecordingManager: false,
+byokKms: false,
+zoomKms: false,
+isAudioSeparateFile: false,
+transcribing: false,
+isUploadVideo: false
+};
+</script>
+<script nonce="4b3axkf5QY28vhwjXuCkTQ" src="https://st1.zoom.us/fe-static/recording-player/js/chunk-vendors.f7c64835.js"></script>
+<script nonce="4b3axkf5QY28vhwjXuCkTQ" src="https://st1.zoom.us/fe-static/recording-player/js/app.fb83c944.js"></script>
+</body>
+</html>
