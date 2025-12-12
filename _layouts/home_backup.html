@@ -1,0 +1,96 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+  <h1 class="page-heading"><b>{{ page.title }}</b></h1>
+  {%- endif -%}
+
+  {{ content }}
+  
+  <h2 class="post-content" style="text-align:center">BASIC ANALYTICAL MODELLING EXAMPLES</h2>
+
+  <div class="flex-container-body">
+    {% for item in site.data.nav.docs %}
+        <div><img src="{{ site.baseurl }}/assets/image/{{ item.image }}" alt="{{ item.title }}" width="image-head-width" height="image-head-height">
+        <hr style="height:1px">
+        <br>
+        <a class="button button2" href="{{ site.baseurl }}/{{ item.url }}" target="_self" rel="noopener">{{ item.title }}</a>  
+      </div>
+    {% endfor %}
+  </div>
+
+
+  <h2 class="post-content" style="text-align:center">ADVANCED ANALYTICAL MODELLING EXAMPLES</h2>
+
+  <div class="flex-container-body">
+        <div><img src="{{ site.baseurl }}/assets/image/roomates_s.jpg" alt="Roommates <a href='https://www.freepik.com/photos/man'>Man photo created by freepic.diller - www.freepik.com</a>" width="image-head-width" height="image-head-height">
+        <hr style="height:1px">
+        <br>
+          <p><b>Roomates Matching</b></p>  
+        <a class="button button1" href="{{ site.baseurl }}/assets/projects/B5[Roommate].docx" target="_self" rel="noopener">Case</a>  
+        <a class="button button1" href="{{ site.baseurl }}/assets/projects/B5[Roommate].xlsx" target="_self" rel="noopener">Excel</a>  
+        <p> </p>
+      </div>
+
+        <div><img src="{{ site.baseurl }}/assets/image/bistro_new_s.jpg" alt="Cafe Bistro" width="image-head-width" height="image-head-height">
+        <hr style="height:1px">
+        <br>
+          <p><b>Cafe Bistro</b></p>  
+        <a class="button button1" href="{{ site.baseurl }}/assets/projects/D1[CafeBistro].docx" target="_self" rel="noopener">Case</a>  
+        <a class="button button1" href="{{ site.baseurl }}/assets/projects/D1[CafeBistro].xlsx" target="_self" rel="noopener">Excel</a>  
+        <p> </p>
+      </div>
+
+      <div><img src="{{ site.baseurl }}/assets/image/care_new_s.jpg" alt="About Care" width="image-head-width" height="image-head-height">
+        <hr style="height:1px">
+        <br>
+          <p><b>About Care</b></p>  
+        <a class="button button1" href="{{ site.baseurl }}/assets/projects/D6[Care]Case.pdf" target="_self" rel="noopener">Case</a>  
+        <a class="button button1" href="{{ site.baseurl }}/assets/projects/D6[Care]TechnicalGuide.pdf" target="_self" rel="noopener">Technical Guide</a>  
+        <p> </p>
+      </div>
+
+      <div><img src="{{ site.baseurl }}/assets/image/uav_new_s.jpg" alt="UAVs" width="image-head-width" height="image-head-height">
+        <hr style="height:1px">
+        <br>
+          <p><b>UAVs</b></p>  
+        <a class="button button1" href="{{ site.baseurl }}/assets/projects/D7[UAVs].pdf" target="_self" rel="noopener">Case</a>  
+        <a class="button button1" href="{{ site.baseurl }}/assets/projects/D7[UAVs].xlsx" target="_self" rel="noopener">Excel</a>  
+        <p> </p>
+      </div>
+
+      <div><img src="{{ site.baseurl }}/assets/image/truck_new_s.jpg" alt="truck" width="image-head-width" height="image-head-height">
+        <hr style="height:1px">
+        <br>
+          <p><b>Truck</b></p>  
+        <a class="button button1" href="{{ site.baseurl }}/assets/projects/D11[Truck].docx" target="_self" rel="noopener">Case</a>  
+        <a class="button button1" href="{{ site.baseurl }}/assets/projects/D11[Truck].ipynb" target="_self" rel="noopener">Python</a>  
+        <a class="button button1" href="{{ site.baseurl }}/assets/projects/D11[info_2019-08-12].json" target="_self" rel="noopener">json</a>  
+        <p> </p>
+      </div>
+
+      <div><img src="{{ site.baseurl }}/assets/image/woodman_new_s.jpg" alt="woodman" width="image-head-width" height="image-head-height">
+        <hr style="height:1px">
+        <br>
+          <p><b>Woodman</b></p>  
+        <a class="button button1" href="{{ site.baseurl }}/assets/projects/D14[Woodman].docx" target="_self" rel="noopener">Case</a>  
+        <a class="button button1" href="{{ site.baseurl }}/assets/projects/D14[Woodman].xlsx" target="_self" rel="noopener">Excel</a>  
+        <p> </p>
+      </div>
+    
+      <div><img src="{{ site.baseurl }}/assets/image/liquor_new_s.jpg" alt="liquor" width="image-head-width" height="image-head-height">
+        <hr style="height:1px">
+        <br>
+          <p><b>Liquor</b></p>  
+        <a class="button button1" href="{{ site.baseurl }}/assets/projects/B3[Liquor].docx" target="_self" rel="noopener">Case</a>  
+        <a class="button button1" href="{{ site.baseurl }}/assets/projects/B3[Liquor].xlsx" target="_self" rel="noopener">Excel</a>  
+        <p> </p>
+      </div>
+    
+  
+  </div>
+
+
+</div>
