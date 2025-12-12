@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<div class="bg-gray-50 min-h-screen py-10">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav class="flex mb-6" aria-label="Breadcrumb">
+            <ol class="flex items-center space-x-2">
+                <li><a href="{{ site.baseurl }}/" class="text-gray-400 hover:text-gray-600"><i class="fa-solid fa-home"></i></a></li>
+                <li><span class="text-gray-300">/</span></li>
+                <li><span class="text-gray-500 font-medium">{{ page.title }}</span></li>
+            </ol>
+        </nav>
+
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
+            <div class="bg-white border-b border-gray-100 px-8 py-8">
+                <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight">
+                    {{ page.title }}
+                </h1>
+                {% if page.subtitle %}
+                <p class="mt-2 text-lg text-gray-500">{{ page.subtitle }}</p>
+                {% endif %}
+            </div>
+
+            <div class="px-8 py-8 prose prose-lg prose-cherry max-w-none">
+                {{ content }}
+            </div>
+            
+            <div class="bg-gray-50 px-8 py-4 border-t border-gray-100 flex justify-between items-center">
+                 <a href="{{ site.baseurl }}/#modules" class="text-sm font-medium text-cherry-600 hover:text-cherry-800 flex items-center gap-1">
+                    <i class="fa-solid fa-arrow-left"></i> Back to Modules
+                 </a>
+                 <div class="text-xs text-gray-400">
+                    Last updated: {{ site.time | date: "%B %d, %Y" }}
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
