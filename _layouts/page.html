@@ -1,38 +1,47 @@
 ---
 layout: default
 ---
-<div class="bg-gray-50 min-h-screen py-10">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav class="flex mb-6" aria-label="Breadcrumb">
-            <ol class="flex items-center space-x-2">
-                <li><a href="{{ site.baseurl }}/" class="text-gray-400 hover:text-gray-600"><i class="fa-solid fa-home"></i></a></li>
-                <li><span class="text-gray-300">/</span></li>
-                <li><span class="text-gray-500 font-medium">{{ page.title }}</span></li>
-            </ol>
-        </nav>
-
-        <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
-            <div class="bg-white border-b border-gray-100 px-8 py-8">
-                <h1 class="text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight">
-                    {{ page.title }}
-                </h1>
-                {% if page.subtitle %}
-                <p class="mt-2 text-lg text-gray-500">{{ page.subtitle }}</p>
-                {% endif %}
-            </div>
-
-            <div class="px-8 py-8 prose prose-lg prose-cherry max-w-none">
-                {{ content }}
-            </div>
-            
-            <div class="bg-gray-50 px-8 py-4 border-t border-gray-100 flex justify-between items-center">
-                 <a href="{{ site.baseurl }}/#modules" class="text-sm font-medium text-cherry-600 hover:text-cherry-800 flex items-center gap-1">
-                    <i class="fa-solid fa-arrow-left"></i> Back to Modules
-                 </a>
-                 <div class="text-xs text-gray-400">
-                    Last updated: {{ site.time | date: "%B %d, %Y" }}
-                 </div>
-            </div>
-        </div>
+<div class="max-w-4xl mx-auto px-4 md:px-12 py-10 md:py-16">
+    
+    <div class="flex items-center gap-2 text-sm text-slate-500 mb-8 font-mono">
+        <a href="{{ site.baseurl }}/" class="hover:text-white transition">Home</a>
+        <span>/</span>
+        <span class="text-rose-500">{{ page.title }}</span>
     </div>
+
+    <article class="bg-white rounded-xl md:rounded-2xl shadow-2xl shadow-black/50 overflow-hidden">
+        
+        <header class="bg-slate-50 border-b border-slate-100 px-8 py-10">
+            <h1 class="text-3xl md:text-5xl font-display font-bold text-slate-900 tracking-tight mb-2">
+                {{ page.title }}
+            </h1>
+            {% if page.subtitle %}
+            <p class="text-slate-500 text-lg">{{ page.subtitle }}</p>
+            {% endif %}
+        </header>
+
+        <div class="px-8 py-10 prose prose-lg prose-slate max-w-none">
+            {{ content }}
+        </div>
+
+        <div class="bg-slate-50 px-8 py-6 border-t border-slate-100 flex justify-between items-center text-sm">
+             <a href="{{ site.baseurl }}/" class="font-medium text-rose-600 hover:text-rose-700 flex items-center gap-2">
+                <i class="fa-solid fa-arrow-left"></i> Back to Dashboard
+             </a>
+             <span class="text-slate-400">Tart Cherry / MSBA518</span>
+        </div>
+    </article>
+
+    <div class="h-20 md:h-0"></div>
 </div>
+
+<style>
+    /* Typography Overrides for the Paper Card */
+    .prose h1, .prose h2, .prose h3 { color: #0f172a; font-family: 'Space Grotesk', sans-serif; font-weight: 700; }
+    .prose a { color: #e11d48; text-decoration: none; font-weight: 500; }
+    .prose a:hover { text-decoration: underline; }
+    .prose blockquote { border-left-color: #e11d48; background: #fff1f2; padding: 1rem; font-style: normal; border-radius: 0 8px 8px 0; }
+    .prose code { color: #e11d48; background: #f1f5f9; padding: 0.2rem 0.4rem; border-radius: 4px; font-weight: 600; }
+    .prose pre { background: #1e293b; color: #f8fafc; border-radius: 12px; }
+    .prose img { border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); }
+</style>
