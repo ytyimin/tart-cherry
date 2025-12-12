@@ -19,7 +19,7 @@
                     },
                     colors: {
                         dark: { 800: '#1e293b', 900: '#0f172a', 950: '#020617' },
-                        rose: { 500: '#f43f5e', 600: '#e11d48' } // Tart Cherry
+                        rose: { 500: '#f43f5e', 600: '#e11d48' }
                     }
                 }
             }
@@ -51,27 +51,27 @@
         <nav class="flex-1 px-4 space-y-1 overflow-y-auto custom-scrollbar">
             <div class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2 mt-4 px-2">Core Modules</div>
             
-            <a href="{{ site.baseurl }}/introduction.markdown" class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/5 hover:text-white transition {% if page.url contains 'introduction' %}bg-white/10 text-white{% endif %}">
+            <a href="{{ site.baseurl }}/introduction.html" class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/5 hover:text-white transition {% if page.url contains 'introduction' %}bg-white/10 text-white{% endif %}">
                 <i class="fa-solid fa-book-open w-5 text-center"></i> <span>Intro</span>
             </a>
-            <a href="{{ site.baseurl }}/linear.markdown" class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/5 hover:text-white transition {% if page.url contains 'linear' %}bg-white/10 text-white{% endif %}">
+            <a href="{{ site.baseurl }}/linear.html" class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/5 hover:text-white transition {% if page.url contains 'linear' %}bg-white/10 text-white{% endif %}">
                 <i class="fa-solid fa-arrow-trend-up w-5 text-center"></i> <span>Linear</span>
             </a>
-            <a href="{{ site.baseurl }}/network.markdown" class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/5 hover:text-white transition {% if page.url contains 'network' %}bg-white/10 text-white{% endif %}">
+            <a href="{{ site.baseurl }}/network.html" class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/5 hover:text-white transition {% if page.url contains 'network' %}bg-white/10 text-white{% endif %}">
                 <i class="fa-solid fa-diagram-project w-5 text-center"></i> <span>Network</span>
             </a>
-            <a href="{{ site.baseurl }}/integer.markdown" class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/5 hover:text-white transition {% if page.url contains 'integer' %}bg-white/10 text-white{% endif %}">
+            <a href="{{ site.baseurl }}/integer.html" class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/5 hover:text-white transition {% if page.url contains 'integer' %}bg-white/10 text-white{% endif %}">
                 <i class="fa-solid fa-calculator w-5 text-center"></i> <span>Integer</span>
             </a>
-            <a href="{{ site.baseurl }}/nonlinear.markdown" class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/5 hover:text-white transition {% if page.url contains 'nonlinear' %}bg-white/10 text-white{% endif %}">
+            <a href="{{ site.baseurl }}/nonlinear.html" class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/5 hover:text-white transition {% if page.url contains 'nonlinear' %}bg-white/10 text-white{% endif %}">
                 <i class="fa-solid fa-wave-square w-5 text-center"></i> <span>Nonlinear</span>
             </a>
-            <a href="{{ site.baseurl }}/genetic.markdown" class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/5 hover:text-white transition {% if page.url contains 'genetic' %}bg-white/10 text-white{% endif %}">
+            <a href="{{ site.baseurl }}/genetic.html" class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/5 hover:text-white transition {% if page.url contains 'genetic' %}bg-white/10 text-white{% endif %}">
                 <i class="fa-solid fa-dna w-5 text-center"></i> <span>Genetic</span>
             </a>
             
             <div class="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2 mt-8 px-2">Resources</div>
-            <a href="{{ site.baseurl }}/about.markdown" class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/5 hover:text-white transition">
+            <a href="{{ site.baseurl }}/about.html" class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/5 hover:text-white transition">
                 <i class="fa-solid fa-circle-info w-5 text-center"></i> <span>About</span>
             </a>
             <a href="https://github.com/ytyimin/tart-cherry" target="_blank" class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-white/5 hover:text-white transition">
@@ -82,7 +82,6 @@
 
     <main class="flex-1 overflow-y-auto relative scroll-smooth">
         <div class="absolute top-0 left-0 w-full h-96 bg-gradient-to-b from-rose-900/20 to-transparent pointer-events-none"></div>
-        
         <div class="relative z-10 pb-24 md:pb-10">
             {{ content }}
         </div>
@@ -94,11 +93,11 @@
                 <i class="fa-solid fa-house text-lg"></i>
                 <span>Home</span>
             </a>
-            <a href="{{ site.baseurl }}/linear.markdown" class="flex flex-col items-center gap-1 text-xs text-slate-400 hover:text-rose-500">
+            <a href="{{ site.baseurl }}/linear.html" class="flex flex-col items-center gap-1 text-xs text-slate-400 hover:text-rose-500">
                 <i class="fa-solid fa-arrow-trend-up text-lg"></i>
                 <span>Linear</span>
             </a>
-            <a href="{{ site.baseurl }}/network.markdown" class="flex flex-col items-center gap-1 text-xs text-slate-400 hover:text-rose-500">
+            <a href="{{ site.baseurl }}/network.html" class="flex flex-col items-center gap-1 text-xs text-slate-400 hover:text-rose-500">
                 <i class="fa-solid fa-diagram-project text-lg"></i>
                 <span>Network</span>
             </a>
@@ -117,27 +116,26 @@
             </button>
         </div>
         <div class="grid grid-cols-2 gap-4">
-            <a href="{{ site.baseurl }}/integer.markdown" class="p-4 bg-white/5 rounded-xl border border-white/5 hover:border-rose-500/50 transition">
+            <a href="{{ site.baseurl }}/integer.html" class="p-4 bg-white/5 rounded-xl border border-white/5 hover:border-rose-500/50 transition">
                 <i class="fa-solid fa-calculator text-rose-500 text-xl mb-2"></i>
                 <div class="font-bold text-white">Integer</div>
             </a>
-            <a href="{{ site.baseurl }}/nonlinear.markdown" class="p-4 bg-white/5 rounded-xl border border-white/5 hover:border-rose-500/50 transition">
+            <a href="{{ site.baseurl }}/nonlinear.html" class="p-4 bg-white/5 rounded-xl border border-white/5 hover:border-rose-500/50 transition">
                 <i class="fa-solid fa-wave-square text-rose-500 text-xl mb-2"></i>
                 <div class="font-bold text-white">Nonlinear</div>
             </a>
-            <a href="{{ site.baseurl }}/genetic.markdown" class="p-4 bg-white/5 rounded-xl border border-white/5 hover:border-rose-500/50 transition">
+            <a href="{{ site.baseurl }}/genetic.html" class="p-4 bg-white/5 rounded-xl border border-white/5 hover:border-rose-500/50 transition">
                 <i class="fa-solid fa-dna text-rose-500 text-xl mb-2"></i>
                 <div class="font-bold text-white">Genetic</div>
             </a>
-            <a href="{{ site.baseurl }}/about.markdown" class="p-4 bg-white/5 rounded-xl border border-white/5 hover:border-rose-500/50 transition">
+            <a href="{{ site.baseurl }}/about.html" class="p-4 bg-white/5 rounded-xl border border-white/5 hover:border-rose-500/50 transition">
                 <i class="fa-solid fa-info text-rose-500 text-xl mb-2"></i>
                 <div class="font-bold text-white">About</div>
             </a>
         </div>
     </div>
-
+    
     <style>
-        /* Custom Scrollbar for sleekness */
         ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: transparent; }
         ::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
