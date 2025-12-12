@@ -1,104 +1,106 @@
 ---
 layout: default
 ---
-<section class="bg-white pt-20 pb-24 border-b border-gray-100">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 tracking-tight mb-6">
-            Optimization Models <span class="text-cherry-600">Simplified.</span>
+<div class="max-w-6xl mx-auto px-6 py-10 md:py-16">
+    
+    <header class="mb-12">
+        <h1 class="font-display text-4xl md:text-6xl font-bold text-white mb-4">
+            Optimization <span class="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 to-purple-500">Models.</span>
         </h1>
-        <p class="mt-4 max-w-2xl mx-auto text-xl text-gray-500">
-            A curated collection of business analytics examples. From Linear Programming to Genetic Algorithms, master the math behind the decisions.
+        <p class="text-lg text-slate-400 max-w-2xl">
+            A curated collection of business analytics examples for MSBA518. Master the math behind the decisions.
         </p>
-        <div class="mt-10 flex justify-center gap-4">
-            <a href="#modules" class="px-8 py-3 border border-transparent text-base font-medium rounded-lg text-white bg-cherry-600 hover:bg-cherry-700 md:text-lg transition shadow-lg hover:shadow-xl hover:-translate-y-0.5">
-                Start Learning
-            </a>
-            <a href="https://github.com/ytyimin/tart-cherry" target="_blank" class="px-8 py-3 border border-gray-300 text-base font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 md:text-lg transition shadow-sm">
-                View Repo
-            </a>
-        </div>
+    </header>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12">
+        <a href="introduction.markdown" class="group md:col-span-2 relative overflow-hidden rounded-2xl bg-gradient-to-br from-rose-600 to-rose-800 p-8 transition hover:shadow-2xl hover:shadow-rose-500/20">
+            <div class="relative z-10">
+                <div class="inline-block rounded-full bg-black/20 px-3 py-1 text-xs font-semibold text-white backdrop-blur-md mb-4">Start Here</div>
+                <h3 class="font-display text-3xl font-bold text-white mb-2">Introduction to Modelling</h3>
+                <p class="text-rose-100/90 max-w-md">Learn the fundamentals of optimization problems and how to structure them efficiently.</p>
+            </div>
+            <i class="fa-solid fa-chart-line absolute -bottom-4 -right-4 text-9xl text-white/10 group-hover:scale-110 group-hover:rotate-12 transition duration-500"></i>
+        </a>
+
+        <a href="linear.markdown" class="group relative overflow-hidden rounded-2xl bg-dark-800 border border-white/5 p-8 hover:border-rose-500/50 transition">
+            <div class="w-12 h-12 rounded-xl bg-emerald-500/20 flex items-center justify-center mb-4 group-hover:bg-emerald-500 transition">
+                <i class="fa-solid fa-arrow-trend-up text-emerald-400 group-hover:text-white text-xl"></i>
+            </div>
+            <h3 class="font-display text-xl font-bold text-white">Linear</h3>
+            <p class="text-sm text-slate-400 mt-2">Simplex methods & sensitivity analysis.</p>
+        </a>
+
+        <a href="network.markdown" class="group relative overflow-hidden rounded-2xl bg-dark-800 border border-white/5 p-8 hover:border-rose-500/50 transition">
+            <div class="w-12 h-12 rounded-xl bg-purple-500/20 flex items-center justify-center mb-4 group-hover:bg-purple-500 transition">
+                <i class="fa-solid fa-diagram-project text-purple-400 group-hover:text-white text-xl"></i>
+            </div>
+            <h3 class="font-display text-xl font-bold text-white">Network</h3>
+            <p class="text-sm text-slate-400 mt-2">Shortest path & max flow logic.</p>
+        </a>
+
+        <a href="integer.markdown" class="group relative overflow-hidden rounded-2xl bg-dark-800 border border-white/5 p-8 hover:border-rose-500/50 transition">
+            <div class="w-12 h-12 rounded-xl bg-orange-500/20 flex items-center justify-center mb-4 group-hover:bg-orange-500 transition">
+                <i class="fa-solid fa-calculator text-orange-400 group-hover:text-white text-xl"></i>
+            </div>
+            <h3 class="font-display text-xl font-bold text-white">Integer</h3>
+            <p class="text-sm text-slate-400 mt-2">Binary variables & discrete choices.</p>
+        </a>
+
+        <a href="genetic.markdown" class="group relative overflow-hidden rounded-2xl bg-dark-800 border border-white/5 p-8 hover:border-rose-500/50 transition">
+            <div class="w-12 h-12 rounded-xl bg-cyan-500/20 flex items-center justify-center mb-4 group-hover:bg-cyan-500 transition">
+                <i class="fa-solid fa-dna text-cyan-400 group-hover:text-white text-xl"></i>
+            </div>
+            <h3 class="font-display text-xl font-bold text-white">Genetic</h3>
+            <p class="text-sm text-slate-400 mt-2">Evolutionary algorithms.</p>
+        </a>
     </div>
-</section>
 
-<section id="modules" class="py-20 bg-gray-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-            <h2 class="text-3xl font-bold text-gray-900">Core Modules</h2>
-            <p class="mt-4 text-lg text-gray-500">Explore the fundamental building blocks of optimization.</p>
+    <div class="bg-dark-900 rounded-3xl border border-white/5 p-6 md:p-8">
+        <div class="flex items-center justify-between mb-6">
+            <h2 class="text-xl font-bold text-white">Advanced Case Studies</h2>
+            <span class="text-xs font-mono text-slate-500 bg-black/30 px-2 py-1 rounded">MSBA518</span>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {% assign modules = "Introduction|book-open|blue,Linear Modelling|arrow-trend-up|green,Network Modelling|diagram-project|purple,Integer Modelling|calculator|orange,Nonlinear Modelling|wave-square|pink,Genetic Modelling|dna|teal" | split: ',' %}
-            
-            {% for item in modules %}
-                {% assign parts = item | split: '|' %}
-                {% assign title = parts[0] %}
-                {% assign icon = parts[1] %}
-                {% assign color = parts[2] %}
-                {% assign link_name = title | split: ' ' | first | downcase %}
-                
-                <a href="{{ link_name }}.markdown" class="group block p-8 bg-white rounded-2xl border border-gray-100 hover:border-cherry-200 hover:shadow-xl hover:-translate-y-1 transition duration-300">
-                    <div class="w-12 h-12 bg-{{ color }}-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-{{ color }}-600 transition duration-300">
-                        <i class="fa-solid fa-{{ icon }} text-{{ color }}-600 text-xl group-hover:text-white"></i>
+        <div class="space-y-3">
+            <div class="flex items-center justify-between p-4 rounded-xl hover:bg-white/5 transition group cursor-pointer border border-transparent hover:border-white/5">
+                <div class="flex items-center gap-4">
+                    <div class="w-10 h-10 rounded-lg bg-dark-800 flex items-center justify-center text-rose-500">
+                        <i class="fa-solid fa-users"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-2">{{ title }}</h3>
-                    <p class="text-gray-500 text-sm">Click to view problem sets and examples for {{ title | downcase }}.</p>
-                </a>
-            {% endfor %}
-        </div>
-    </div>
-</section>
-
-<section id="advanced" class="py-20 bg-gray-900 text-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex flex-col md:flex-row justify-between items-end mb-12 border-b border-gray-800 pb-6">
-            <div>
-                <h2 class="text-3xl font-bold">Advanced Case Studies</h2>
-                <p class="mt-4 text-gray-400">Real-world applications of analytical modelling.</p>
-            </div>
-            <div class="mt-4 md:mt-0">
-                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-cherry-900 text-cherry-100 border border-cherry-700">
-                    Case Library
-                </span>
-            </div>
-        </div>
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div class="bg-gray-800 rounded-xl p-6 hover:bg-gray-700 transition cursor-pointer border border-gray-700 hover:border-cherry-500/50">
-                <div class="flex justify-between items-start mb-4">
-                    <div class="bg-gray-700 p-2 rounded-lg"><i class="fa-solid fa-users text-cherry-500"></i></div>
+                    <div>
+                        <div class="text-white font-medium group-hover:text-rose-400 transition">Roommates Matching</div>
+                        <div class="text-xs text-slate-500">Matching Optimization</div>
+                    </div>
                 </div>
-                <h4 class="text-lg font-semibold mb-1">Roommates</h4>
-                <p class="text-sm text-gray-400 mb-4">Matching optimization.</p>
-                <span class="text-xs font-mono bg-gray-900 px-2 py-1 rounded text-gray-300">Excel</span>
+                <div class="hidden md:block text-xs font-mono text-slate-600">Excel Solver</div>
             </div>
 
-            <div class="bg-gray-800 rounded-xl p-6 hover:bg-gray-700 transition cursor-pointer border border-gray-700 hover:border-cherry-500/50">
-                <div class="flex justify-between items-start mb-4">
-                    <div class="bg-gray-700 p-2 rounded-lg"><i class="fa-solid fa-truck-fast text-cherry-500"></i></div>
+            <div class="flex items-center justify-between p-4 rounded-xl hover:bg-white/5 transition group cursor-pointer border border-transparent hover:border-white/5">
+                <div class="flex items-center gap-4">
+                    <div class="w-10 h-10 rounded-lg bg-dark-800 flex items-center justify-center text-rose-500">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <div>
+                        <div class="text-white font-medium group-hover:text-rose-400 transition">Logistics Routing</div>
+                        <div class="text-xs text-slate-500">Vehicle Routing Problem</div>
+                    </div>
                 </div>
-                <h4 class="text-lg font-semibold mb-1">Logistics</h4>
-                <p class="text-sm text-gray-400 mb-4">Vehicle routing.</p>
-                <span class="text-xs font-mono bg-gray-900 px-2 py-1 rounded text-gray-300">Python</span>
-            </div>
-            
-             <div class="bg-gray-800 rounded-xl p-6 hover:bg-gray-700 transition cursor-pointer border border-gray-700 hover:border-cherry-500/50">
-                <div class="flex justify-between items-start mb-4">
-                    <div class="bg-gray-700 p-2 rounded-lg"><i class="fa-solid fa-plane-up text-cherry-500"></i></div>
-                </div>
-                <h4 class="text-lg font-semibold mb-1">UAVs</h4>
-                <p class="text-sm text-gray-400 mb-4">Drone paths.</p>
-                <span class="text-xs font-mono bg-gray-900 px-2 py-1 rounded text-gray-300">Excel</span>
+                <div class="hidden md:block text-xs font-mono text-slate-600">Python</div>
             </div>
 
-             <div class="bg-gray-800 rounded-xl p-6 hover:bg-gray-700 transition cursor-pointer border border-gray-700 hover:border-cherry-500/50">
-                <div class="flex justify-between items-start mb-4">
-                    <div class="bg-gray-700 p-2 rounded-lg"><i class="fa-solid fa-utensils text-cherry-500"></i></div>
+            <div class="flex items-center justify-between p-4 rounded-xl hover:bg-white/5 transition group cursor-pointer border border-transparent hover:border-white/5">
+                <div class="flex items-center gap-4">
+                    <div class="w-10 h-10 rounded-lg bg-dark-800 flex items-center justify-center text-rose-500">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <div>
+                        <div class="text-white font-medium group-hover:text-rose-400 transition">Bistro Staffing</div>
+                        <div class="text-xs text-slate-500">Scheduling Optimization</div>
+                    </div>
                 </div>
-                <h4 class="text-lg font-semibold mb-1">Bistro</h4>
-                <p class="text-sm text-gray-400 mb-4">Staff scheduling.</p>
-                <span class="text-xs font-mono bg-gray-900 px-2 py-1 rounded text-gray-300">Excel</span>
+                <div class="hidden md:block text-xs font-mono text-slate-600">Excel Solver</div>
             </div>
         </div>
     </div>
-</section>
+
+</div>
